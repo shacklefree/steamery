@@ -1,9 +1,22 @@
-import * as React from "react";
-import { Typography, Card, Button } from "antd";
+import * as React from "react"
+import { Typography, Card, Button } from "antd"
 
-const { Title } = Typography;
+const { Title } = Typography
 
-export default {
+// TODO(mat) introduce this interface in sdk
+interface Styleguide {
+  H3: React.FunctionComponent
+  Button: React.FunctionComponent
+  Card: React.FunctionComponent
+  Flex: React.FunctionComponent<{ style: any }>
+  FlexItem: React.FunctionComponent<{ style: any }>
+  TabGroup: React.FunctionComponent
+  TabGroupHeader: React.FunctionComponent
+  TabGroupHeaderItem: React.FunctionComponent<{ active: boolean }>
+  Tab: React.FunctionComponent
+}
+
+const styleguide: Styleguide = {
   H3: ({ children, ...otherProps }) => (
     <Title level={3} {...otherProps}>
       {children}
@@ -26,14 +39,14 @@ export default {
     </Card>
   ),
   Flex: ({ children, ...otherProps }) => {
-    return <div style={{ display: "flex", flexWrap: "wrap" }}>{children}</div>;
+    return <div style={{ display: "flex", flexWrap: "wrap" }}>{children}</div>
   },
   FlexItem: ({ children, style }) => {
     return (
       <div style={{ ...style, flex: "0 0", marginBottom: 16, marginRight: 16 }}>
         {children}
       </div>
-    );
+    )
   },
   TabGroup: ({ children }) => (
     <div style={{ marginBottom: 16 }}>{children}</div>
@@ -59,7 +72,9 @@ export default {
       >
         {children}
       </div>
-    );
+    )
   },
   Tab: ({ children }) => <div>{children}</div>
-};
+}
+
+export default styleguide
