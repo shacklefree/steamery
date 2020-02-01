@@ -27,7 +27,7 @@
     "@types/styled-components": "4.4.2",
     "typescript": "^3.7.5"
   },
-  "keywords": [],
+  "keywords": ["Candu"],
   "description": "Candu showcase",
   "browserslist": {
     "production": [
