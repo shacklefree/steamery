@@ -6,6 +6,11 @@ import { BrowserRouter as Router } from "react-router-dom"
 import Ant from "./apps/Ant"
 import antStyleguide from "./styles/antStyleguide"
 
+import { initPendo } from "./clients/pendo"
+
+// initialize pendo with fake user
+initPendo()
+
 class App extends React.Component {
   render() {
     const selectedApp = <Ant />
