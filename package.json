@@ -4,7 +4,7 @@
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@candulabs/react-sdk": "0.0.7",
+    "@candulabs/react-sdk": "0.0.8",
     "antd": "3.26.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
