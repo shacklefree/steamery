@@ -1,21 +1,21 @@
-import * as React from "react";
-import styled from "styled-components";
-import { Layout, Icon, Menu, Dropdown, Button, Input, Typography } from "antd";
+import * as React from "react"
+import styled from "styled-components"
+import { Layout, Icon, Menu, Dropdown, Button, Input, Typography } from "antd"
 
-const { Header } = Layout;
-const { Search } = Input;
-const { Title } = Typography;
+const { Header } = Layout
+const { Search } = Input
+const { Title } = Typography
 
 const HeaderFlex = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-`;
+`
 
 const AntHeader = ({ collapsed, setCollapsed }: any) => {
   const handleMenuClick = (e: any) => {
-    console.log("click", e);
-  };
+    console.log("click", e)
+  }
 
   const menu = (
     <Menu onClick={handleMenuClick}>
@@ -23,7 +23,7 @@ const AntHeader = ({ collapsed, setCollapsed }: any) => {
       <Menu.Item key="2">Evergreen</Menu.Item>
       <Menu.Item key="3">Argon</Menu.Item>
     </Menu>
-  );
+  )
 
   return (
     <Header style={{ background: "#fff", padding: 16 }}>
@@ -55,7 +55,7 @@ const AntHeader = ({ collapsed, setCollapsed }: any) => {
         </Dropdown>
       </HeaderFlex>
     </Header>
-  );
-};
+  )
+}
 
-export default AntHeader;
+export default AntHeader
