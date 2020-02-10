@@ -6,6 +6,7 @@
   "dependencies": {
     "@candulabs/react-sdk": "0.0.8",
     "antd": "3.26.7",
+    "qs": "6.9.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "5.1.2",
@@ -27,7 +28,9 @@
     "@types/styled-components": "4.4.2",
     "typescript": "^3.7.5"
   },
-  "keywords": ["Candu"],
+  "keywords": [
+    "Candu"
+  ],
   "description": "Candu showcase",
   "browserslist": {
     "production": [
