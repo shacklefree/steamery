@@ -35,6 +35,7 @@ const App = (props: Props) => {
           <CanduProvider
             clientToken="dR8ZTszcnp"
             userId={userId || 1}
+            traits={auth || {}}
             styleguide={selectedStyleguide}
           >
             {selectedApp}
