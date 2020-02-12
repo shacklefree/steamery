@@ -95,7 +95,7 @@ const AntHeader = ({ collapsed, setCollapsed, auth }: Props) => {
               style={{ overflow: "hidden", padding: 0 }}
               onClick={() => setMenuVisible(!isMenuVisible)}
             >
-              <img style={{ width: 32 }} src={auth.photoURL} />
+              <img alt="avatar" style={{ width: 32 }} src={auth.photoURL} />
             </Button>
           ) : (
             <Button
