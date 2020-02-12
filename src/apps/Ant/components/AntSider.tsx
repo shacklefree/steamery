@@ -1,13 +1,16 @@
-import * as React from "react";
-import styled from "styled-components";
-import { Layout, Menu, Icon, Typography } from "antd";
-import "./sider.css";
+import * as React from "react"
+import { connect } from "react-redux"
+import styled from "styled-components"
+import { Layout, Menu, Icon, Typography } from "antd"
+import "../styles/sider.css"
 
-import Logo from "../../components/svg/Logo";
+import Logo from "../../../components/svg/Logo"
+import { ReduxState } from "../../../redux/reducers"
+import { logout } from "../../../redux/actions/auth"
 
-const { Title } = Typography;
-const { Sider } = Layout;
-const { SubMenu } = Menu;
+const { Title } = Typography
+const { Sider } = Layout
+const { SubMenu } = Menu
 
 const Brand = styled.div`
   height: 32px;
@@ -15,9 +18,22 @@ const Brand = styled.div`
   padding-left: 8px;
   display: flex;
   overflow: hidden;
-`;
+`
 
-const AntSider = ({ collapsed }: any) => {
+interface OwnProps {
+  collapsed: boolean
+}
+
+interface ReduxProps {
+  // TODO type auth state
+  auth: any
+  logout: () => void
+}
+
+type Props = OwnProps & ReduxProps
+
+const AntSider = ({ collapsed, auth, logout }: Props) => {
+  const handleLogout = () => logout()
   return (
     <Sider
       trigger={null}
@@ -80,13 +96,18 @@ const AntSider = ({ collapsed }: any) => {
           <Icon type="setting" />
           <span>Settings</span>
         </Menu.Item>
-        <Menu.Item key="10">
+
+        <Menu.Item disabled={!auth.uid} onClick={handleLogout}>
           <Icon type="poweroff" />
           <span>Log out</span>
         </Menu.Item>
       </Menu>
     </Sider>
-  );
-};
+  )
+}
 
-export default AntSider;
+const mapStateToProps = (state: ReduxState) => ({
+  auth: state.auth
+})
+
+export default connect(mapStateToProps, { logout })(AntSider)

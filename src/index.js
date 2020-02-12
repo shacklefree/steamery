@@ -1,42 +1,25 @@
 import React from "react"
-import queryString from "qs"
 import { render } from "react-dom"
-import { CanduProvider } from "@candulabs/react-sdk"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { Provider } from "react-redux"
+import { BrowserRouter as Router } from "react-router-dom"
 
-import { Ant } from "./apps"
-import antStyleguide from "./styles/antStyleguide"
+import App from "./apps"
 
 import { initPendo } from "./clients/pendo"
+import configureStore from "./redux"
 
 // initialize pendo with fake user
 initPendo()
 
-class Steamery extends React.Component {
-  render() {
-    const selectedApp = <Ant />
-    const selectedStyleguide = antStyleguide
-    return (
-      <Router>
-        <Route path="*">
-          {props => {
-            const { userId = 1 } = queryString.parse(
-              props.location.search.replace("?", "")
-            )
-            return (
-              <CanduProvider
-                clientToken="dR8ZTszcnp"
-                userId={userId}
-                styleguide={selectedStyleguide}
-              >
-                {selectedApp}
-              </CanduProvider>
-            )
-          }}
-        </Route>
-      </Router>
-    )
-  }
-}
+//init redux
+const reduxStore = configureStore()
+
+const Steamery = () => (
+  <Provider store={reduxStore}>
+    <Router>
+      <App />
+    </Router>
+  </Provider>
+)
 
 render(<Steamery />, document.getElementById("root"))
