@@ -4,9 +4,6 @@ import {
   googleAuthProvider
 } from "../../clients/firebase"
 
-// import * as types from '../constants/ActionTypes'
-// import { updateUser } from './users'
-
 export const types = {
   LOGIN_REQUEST: "LOGIN_REQUEST",
   LOGIN_SUCCESS: "LOGIN_SUCCESS",
@@ -32,7 +29,6 @@ export const logoutSuccesAction = () => ({
 })
 
 export const initAuth = () => {
-  console.log("init auth")
   return (dispatch: any) => {
     return auth.onAuthStateChanged(user => {
       if (user) {
@@ -46,8 +42,6 @@ export const initAuth = () => {
           }
           console.log({ userData, user })
           dispatch(loginSuccessAction(user.uid, userData))
-          // TODO make this conditional
-          // return dispatch(updateUser(userData))
         }
       }
     })
@@ -56,21 +50,11 @@ export const initAuth = () => {
 
 export const loginAnonymously = () => {
   return (dispatch: any) => {
-    return auth
-      .signInAnonymously()
-      .then(() => {
-        // console.log(response);
-        // const { user } = response
-        // if (user) {
-        // 	const displayName = user.displayName || 'Ninja'
-        // 	return dispatch(loginSuccess(user.uid, displayName))
-        // }
-      })
-      .catch(function(error) {
-        console.log({ error })
+    return auth.signInAnonymously().catch(function(error) {
+      console.log({ error })
 
-        return dispatch(loginFailureAction({ error }))
-      })
+      return dispatch(loginFailureAction({ error }))
+    })
   }
 }
 
@@ -86,23 +70,17 @@ export const loginWithProvider = (providerName: "google" | "github") => {
       return Promise.reject("Invalid auth provider")
     }
 
-    return auth
-      .signInWithPopup(provider)
-      .then(response => {
-        const { user } = response
-      })
-      .catch(function(error) {
-        console.log({ error })
+    return auth.signInWithPopup(provider).catch(function(error) {
+      console.log({ error })
 
-        return dispatch(loginFailureAction({ error }))
-      })
+      return dispatch(loginFailureAction({ error }))
+    })
   }
 }
 
 export const logout = () => {
   return (dispatch: any) => {
     return auth.signOut().then(() => {
-      console.log("log out!!!")
       dispatch(logoutSuccesAction())
     })
   }
