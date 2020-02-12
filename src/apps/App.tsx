@@ -16,7 +16,7 @@ interface Props {
 }
 
 const App = (props: Props) => {
-  const { initAuth } = props
+  const { initAuth, auth } = props
   const selectedApp = <Ant />
   const selectedStyleguide = antStyleguide
 
@@ -27,13 +27,14 @@ const App = (props: Props) => {
   return (
     <Route path="*">
       {({ location }) => {
-        const { userId = 1 } = queryString.parse(
-          location.search.replace("?", "")
-        )
+        let { uid: userId } = auth
+        if (!userId) {
+          userId = queryString.parse(location.search.replace("?", "")).userId
+        }
         return (
           <CanduProvider
             clientToken="dR8ZTszcnp"
-            userId={userId}
+            userId={userId || 1}
             styleguide={selectedStyleguide}
           >
             {selectedApp}
