@@ -1,19 +1,19 @@
-import * as React from "react";
-import "antd/dist/antd.css";
-import "../styles/index.css";
-import { Layout } from "antd";
+import * as React from "react"
+import "antd/dist/antd.css"
+import "./styles/index.css"
+import { Layout } from "antd"
 
-import AntHeader from "./components/AntHeader";
-import AntSider from "./components/AntSider";
+import AntHeader from "./components/AntHeader"
+import AntSider from "./components/AntSider"
 
-import Explore from "../pages/Explore";
+import Explore from "../../pages/Explore"
 
-const { Content, Footer } = Layout;
+const { Content, Footer } = Layout
 
 class Ant extends React.Component {
   state = {
     collapsed: false
-  };
+  }
   render() {
     return (
       <Layout style={{ height: "100%" }}>
@@ -35,8 +35,8 @@ class Ant extends React.Component {
           </div>
         </Layout>
       </Layout>
-    );
+    )
   }
 }
 
-export default Ant;
+export default Ant
