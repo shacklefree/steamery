@@ -6,7 +6,7 @@ const { Title } = Typography
 // TODO(mat) introduce this interface in sdk
 interface Styleguide {
   H3: React.FunctionComponent
-  Button: React.FunctionComponent
+  Button: React.FunctionComponent<{ handlers: any[] }>
   Card: React.FunctionComponent
   Flex: React.FunctionComponent<{ style: any }>
   FlexItem: React.FunctionComponent<{ style: any }>
@@ -22,9 +22,9 @@ const styleguide: Styleguide = {
       {children}
     </Title>
   ),
-  Button: ({ children, ...otherProps }) => (
-    <Button {...otherProps}>{children}</Button>
-  ),
+  Button: ({ children, handlers }) => {
+    return <Button {...handlers}>{children}</Button>
+  },
   Card: ({ children }) => (
     <Card
       style={{
