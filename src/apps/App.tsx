@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import queryString from "qs"
 import { CanduProvider } from "@candulabs/react-sdk"
-import { Route } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import { connect } from "react-redux"
 
 import antStyleguide from "./Ant/Styleguide"
@@ -25,24 +25,44 @@ const App = (props: Props) => {
   }, [])
 
   return (
-    <Route path="*">
-      {({ location }) => {
-        let { uid: userId } = auth
-        if (!userId) {
-          userId = queryString.parse(location.search.replace("?", "")).userId
-        }
-        return (
-          <CanduProvider
-            clientToken="dR8ZTszcnp"
-            userId={userId || 1}
-            traits={auth || {}}
-            styleguide={selectedStyleguide}
-          >
-            {selectedApp}
-          </CanduProvider>
-        )
-      }}
-    </Route>
+    <Switch>
+      <Route path="/sdk-test">
+        {({ location }) => {
+          
+          const clientToken = queryString.parse(location.search.replace("?", "")).clientToken
+
+          return (
+            <CanduProvider
+              clientToken={clientToken || 'DevbWgE94u'}
+              userId={'test-user'}
+              traits={{}}
+              styleguide={selectedStyleguide}
+            >
+              {selectedApp}
+            </CanduProvider>
+          )
+        }}
+      </Route>
+      <Route path="*">
+        {({ location }) => {
+          let { uid: userId } = auth
+          if (!userId) {
+            userId = queryString.parse(location.search.replace("?", "")).userId
+          }
+          return (
+            <CanduProvider
+              clientToken="dR8ZTszcnp"
+              userId={userId || 1}
+              traits={auth || {}}
+              styleguide={selectedStyleguide}
+            >
+              {selectedApp}
+            </CanduProvider>
+          )
+        }}
+      </Route>
+    </Switch>
+    
   )
 }
 
