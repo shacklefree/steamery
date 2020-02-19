@@ -1,15 +1,16 @@
-import * as React from "react";
-import styled from "styled-components";
-import { Portal } from "@candulabs/react-sdk";
-import { Switch, Route } from "react-router-dom";
+import * as React from "react"
+import queryString from "qs"
+import styled from "styled-components"
+import { Portal } from "@candulabs/react-sdk"
+import { Switch, Route } from "react-router-dom"
 
-import { ExploreDraft } from "./components";
+import { ExploreDraft } from "./components"
 
 const Container = styled.div`
   max-width: 980px;
   margin: auto;
   padding-top: 56px;
-`;
+`
 
 const Explore = () => {
   return (
@@ -18,12 +19,19 @@ const Explore = () => {
         <Route path="/draft">
           <ExploreDraft />
         </Route>
+        <Route path="/sdk-test">
+          {({ location }) => {
+            const portalSlug = queryString.parse(location.search.replace('?', '')).portalSlug
+            
+            return <Portal slug={portalSlug || 'datadog-test-portal'} />
+          }}
+        </Route>
         <Route path="/">
           <Portal slug="explore-center" />
         </Route>
       </Switch>
     </Container>
-  );
-};
+  )
+}
 
-export default Explore;
+export default Explore
