@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "packages": {
+    "@candulabs/react-sdk": {
+      "signature": "4a94b0e772406523dff7930ce4dd13e3"
+    }
+  }
+}

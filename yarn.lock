@@ -917,28 +917,28 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@candulabs/eventing@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.0.12.tgz#748e6331ba88781055ba3cf1f02ea274063f35c4"
-  integrity sha512-GDJrqSNNpP3zq1woIT0ViDXUtm9eTbT8VP7d1o4TDcbq3UvkU90V7uO/uE3b5a67tOTUpuEgJ1T6SmTE81FpAQ==
+"@candulabs/eventing@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.0.14.tgz#c9b179d8bc5fcb4ea42ed373d2e2892f173dc577"
+  integrity sha512-yE/DMvH5rfxs0U7nPiOeGwftezfJP6EV2pmMV/8rMTlh4z9T5vYKp88aOGZ7UsiJB/50+W477Mr88mWhPzZLKw==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.0.12.tgz#c2d892005f7ae685e5bdb6228e2cf652f1bd8774"
-  integrity sha512-1jdxHRFsfmu7g8sC3ntgCxlCsMFKJQ/CFn7iMcXvoUo/Ens4+t0/c9wvNdEWTvk02bDuRWRm9iuf3isyNhlj/g==
+"@candulabs/models@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.0.14.tgz#aceb881c8113a846142d0db45d813ec211ff40d3"
+  integrity sha512-FTyMpuWy50k3yMLDK8v5DI3HdG04M2EANfSVqIEdfPtGY8vT13kc++I/ZNixdDnft53ANsfqbPEG/fy0hLwPMA==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-sdk@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.0.12.tgz#d520fac8409494263f256ebc39f1ce9054b7741d"
-  integrity sha512-uiQRpTB1diS7Qxu05uhVOkPWk0KKZWEo677gtIBwDiqCAmCxuO6AbYI/aGJiWX/j6mMzu+yhKJSokbHCBV/Llw==
+"@candulabs/react-sdk@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.0.14.tgz#3328f0836ad40ed6f3687f85bbad08c6e85c653b"
+  integrity sha512-CKWFKhoQF9Ct9GsrZ5s8E+qRkMVP+gwTD0U7LqHPW7mZ/XPJF1JcBkpVEfQGcYaMpimIoyFrdQRoOcdWn15XfQ==
   dependencies:
-    "@candulabs/eventing" "^0.0.12"
-    "@candulabs/models" "^0.0.12"
+    "@candulabs/eventing" "^0.0.14"
+    "@candulabs/models" "^0.0.14"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
