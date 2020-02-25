@@ -29,12 +29,12 @@ const App = (props: Props) => {
       <Route path="/sdk-test">
         {({ location }) => {
           
-          const clientToken = queryString.parse(location.search.replace("?", "")).clientToken
+          const { clientToken, userId } = queryString.parse(location.search.replace("?", ""))
 
           return (
             <CanduProvider
               clientToken={clientToken || 'DevbWgE94u'}
-              userId={'test-user'}
+              userId={userId || 'test-user'}
               traits={{}}
               styleguide={selectedStyleguide}
             >
