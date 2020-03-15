@@ -1,5 +1,5 @@
-import evergreenStyleguide from '@candulabs/react-evergreen-styleguide'
-import antStyleguide from "./apps/Ant/Styleguide"
+import evergreenStyleguide from '@candulabs/react-evergreen-styleguide';
+import antStyleguide from './apps/Ant/Styleguide';
 
 export const styleguides = [
   {
@@ -12,4 +12,9 @@ export const styleguides = [
     name: 'Evergreen',
     styleguide: evergreenStyleguide,
   },
-]
+  {
+    id: 'default',
+    name: 'Candu Default',
+    styleguide: {},
+  },
+];
