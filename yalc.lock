@@ -2,7 +2,19 @@
   "version": "v1",
   "packages": {
     "@candulabs/react-sdk": {
-      "signature": "4a94b0e772406523dff7930ce4dd13e3"
+      "signature": "900210e2ad8a9ad17637b8fbc3848567",
+      "file": true,
+      "replaced": "^0.0.15"
+    },
+    "@candulabs/eventing": {
+      "signature": "0dac8aa0f16d8d3b4f4466d8a1dc7fa7"
+    },
+    "@candulabs/models": {
+      "signature": "50a73b539f0f2b0639ccd2f436b47f32"
+    },
+    "@candulabs/react-evergreen-styleguide": {
+      "signature": "b54a7784c4608b9292fb9eb0e800147f",
+      "file": true
     }
   }
 }

@@ -4,13 +4,10 @@ import thunk from "redux-thunk"
 import reducers from "./reducers"
 
 // @ts-ignore
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export const configureStore = () => {
-  // TODO add middlewares here if needed
-  const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)))
-
-  return store
+  return createStore(reducers, composeEnhancers(applyMiddleware(thunk)));
 }
 
 export default configureStore

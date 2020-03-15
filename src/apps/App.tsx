@@ -4,21 +4,23 @@ import { CanduProvider } from "@candulabs/react-sdk"
 import { Route, Switch } from "react-router-dom"
 import { connect } from "react-redux"
 
-import antStyleguide from "./Ant/Styleguide"
 import Ant from "./Ant"
 
+import { styleguides } from "../constants"
 import { ReduxState } from "../redux/reducers"
 import { initAuth } from "../redux/actions/auth"
 
 interface Props {
   auth: any
   initAuth: any
+  styles: any
 }
 
 const App = (props: Props) => {
-  const { initAuth, auth } = props
+  const { initAuth, auth, styles } = props
   const selectedApp = <Ant />
-  const selectedStyleguide = antStyleguide
+  const styleguideToRender = styles.styleguide || styleguides[0].id;
+  const { styleguide: selectedStyleguide } = styleguides.find(({ id}) => id === styleguideToRender ) || { styleguide: {}}
 
   useEffect(() => {
     initAuth()
@@ -28,11 +30,12 @@ const App = (props: Props) => {
     <Switch>
       <Route path="/sdk-test">
         {({ location }) => {
-          
+
           const { clientToken, userId } = queryString.parse(location.search.replace("?", ""))
 
           return (
             <CanduProvider
+              key={styleguideToRender}
               clientToken={clientToken || 'DevbWgE94u'}
               userId={userId || 'test-user'}
               traits={{}}
@@ -51,6 +54,7 @@ const App = (props: Props) => {
           }
           return (
             <CanduProvider
+              key={styleguideToRender}
               clientToken="dR8ZTszcnp"
               userId={userId || 1}
               traits={auth || {}}
@@ -62,12 +66,13 @@ const App = (props: Props) => {
         }}
       </Route>
     </Switch>
-    
+
   )
 }
 
 const mapStateToProps = (state: ReduxState) => ({
-  auth: state.auth
+  auth: state.auth,
+  styles: state.styles,
 })
 
 export default connect(mapStateToProps, { initAuth })(App)

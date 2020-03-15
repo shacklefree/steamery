@@ -4,10 +4,12 @@ import styled from "styled-components"
 import OutsideClickHandler from "react-outside-click-handler"
 import { Layout, Icon, Menu, Dropdown, Button, Input, Typography } from "antd"
 
+import { styleguides } from "../../../constants"
+import Actions from "../../../redux/actions"
 import { ReduxState } from "../../../redux/reducers"
 
-import AntLogin from "./AntLogin"
 import AntAccount from "./AntAccount"
+import AntLogin from "./AntLogin"
 
 const { Header } = Layout
 const { Search } = Input
@@ -41,25 +43,27 @@ interface OwnProps {
 interface ReduxProps {
   // TODO type auth state
   auth: any
+  styles: any
+  setStyleguide: (s: string) => null
 }
 
 type Props = OwnProps & ReduxProps
 
-const AntHeader = ({ collapsed, setCollapsed, auth }: Props) => {
+const AntHeader = ({ collapsed, setCollapsed, styles, setStyleguide, auth }: Props) => {
   const [isMenuVisible, setMenuVisible] = useState(false)
   const handleMenuClick = (e: any) => {
-    console.log("click", e)
+    setStyleguide(e.key)
   }
-
-  console.log({ auth })
 
   const menu = (
     <Menu onClick={handleMenuClick}>
-      <Menu.Item key="1">Ant Design</Menu.Item>
-      <Menu.Item key="2">Evergreen</Menu.Item>
-      <Menu.Item key="3">Argon</Menu.Item>
+      {styleguides.map(({ id, name }) => (
+        <Menu.Item key={id}>{name}</Menu.Item>
+      ))}
     </Menu>
   )
+  const styleguideId = styles.styleguide || styleguides[0].id;
+  const selectedStyleguide = styleguides.find(({ id }) => id === styleguideId) || { name: 'antd'}
 
   return (
     <Header style={{ background: "#fff", padding: 16 }}>
@@ -86,7 +90,7 @@ const AntHeader = ({ collapsed, setCollapsed, auth }: Props) => {
         <Search placeholder="Quick search" style={{ width: 300 }} />
         <Dropdown overlay={menu}>
           <Button style={{ marginLeft: 16 }}>
-            Ant Design <Icon type="down" />
+            {selectedStyleguide.name} <Icon type="down" />
           </Button>
         </Dropdown>
         <AvatarWrapper>
@@ -121,7 +125,12 @@ const AntHeader = ({ collapsed, setCollapsed, auth }: Props) => {
 }
 
 const mapStateToProps = (state: ReduxState) => ({
-  auth: state.auth
+  auth: state.auth,
+  styles: state.styles,
 })
 
-export default connect(mapStateToProps)(AntHeader)
+const mapDispatchToProps = (dispatch: any) => ({
+  setStyleguide: (styleguide: string) => dispatch(Actions.Styles.setStyleguide(styleguide)),
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(AntHeader)
