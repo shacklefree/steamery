@@ -1,73 +1,58 @@
-import React, { useEffect } from "react"
-import queryString from "qs"
-import { CanduProvider } from "@candulabs/react-sdk"
-import { Route, Switch } from "react-router-dom"
-import { connect } from "react-redux"
+import React, { FunctionComponent, useEffect } from 'react';
+import queryString from 'qs';
+import { connect } from 'react-redux';
+import { CanduProvider } from '@candulabs/react-sdk';
 
-import antStyleguide from "./Ant/Styleguide"
-import Ant from "./Ant"
+import Ant from './Ant';
 
-import { ReduxState } from "../redux/reducers"
-import { initAuth } from "../redux/actions/auth"
+import { styleguides } from '../constants';
+import { ReduxState } from '../redux/reducers';
+import { initAuth } from '../redux/actions/auth';
+
+import Routes from './Routes';
 
 interface Props {
-  auth: any
-  initAuth: any
+  auth: any;
+  initAuth: any;
+  styles: any;
 }
 
 const App = (props: Props) => {
-  const { initAuth, auth } = props
-  const selectedApp = <Ant />
-  const selectedStyleguide = antStyleguide
+  const { initAuth, styles } = props;
+  const styleguideToRender = styles.styleguide || styleguides[0].id;
+  const { styleguide: selectedStyleguide, Additional } = styleguides.find(
+    ({ id }) => id === styleguideToRender,
+  ) || { styleguide: {} };
+
+  const AdditionalStyles = Additional as FunctionComponent<any>;
 
   useEffect(() => {
-    initAuth()
-  }, [])
+    initAuth();
+  }, []);
+
+  const { clientToken, userId } = queryString.parse(window.location.search.replace('?', ''));
 
   return (
-    <Switch>
-      <Route path="/sdk-test">
-        {({ location }) => {
-          
-          const { clientToken, userId } = queryString.parse(location.search.replace("?", ""))
-
-          return (
-            <CanduProvider
-              clientToken={clientToken || 'DevbWgE94u'}
-              userId={userId || 'test-user'}
-              traits={{}}
-              styleguide={selectedStyleguide}
-            >
-              {selectedApp}
-            </CanduProvider>
-          )
-        }}
-      </Route>
-      <Route path="*">
-        {({ location }) => {
-          let { uid: userId } = auth
-          if (!userId) {
-            userId = queryString.parse(location.search.replace("?", "")).userId
-          }
-          return (
-            <CanduProvider
-              clientToken="dR8ZTszcnp"
-              userId={userId || 1}
-              traits={auth || {}}
-              styleguide={selectedStyleguide}
-            >
-              {selectedApp}
-            </CanduProvider>
-          )
-        }}
-      </Route>
-    </Switch>
-    
-  )
-}
+    <React.Fragment>
+      <AdditionalStyles />
+      <CanduProvider
+        key={styleguideToRender}
+        clientToken={clientToken || 'dR8ZTszcnp'}
+        userId={userId || 'test-user'}
+        traits={{}}
+        styleguide={selectedStyleguide}
+      >
+        <Ant>
+          <Routes />
+        </Ant>
+      </CanduProvider>
+    </React.Fragment>
+  );
+};
 
 const mapStateToProps = (state: ReduxState) => ({
-  auth: state.auth
-})
+  auth: state.auth,
+  styles: state.styles,
+});
 
-export default connect(mapStateToProps, { initAuth })(App)
+export default connect(mapStateToProps, { initAuth })(App);
