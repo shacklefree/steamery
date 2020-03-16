@@ -10,13 +10,13 @@ import { ReduxState } from '../redux/reducers';
 import { initAuth } from '../redux/actions/auth';
 import Routes from './Routes';
 
-const Flex: FunctionComponent<any> = ({ children, ...otherProps }) => (
-  <div style={{ display: 'flex', flexWrap: 'wrap' }} {...otherProps}>
-    {children}
-  </div>
+const Flex: FunctionComponent<any> = ({ children, style }) => (
+  <div style={{ ...style, display: 'flex', flexWrap: 'wrap' }}>{children}</div>
 );
 const FlexItem: FunctionComponent<any> = ({ children, style }) => (
-  <div style={{ ...style, flex: '0 0', marginBottom: 16, marginRight: 16 }}>{children}</div>
+  <div style={{ ...style, flex: '0 0', marginBottom: 16, marginRight: 16, minWidth: 250 }}>
+    {children}
+  </div>
 );
 
 interface Props {
@@ -44,11 +44,11 @@ const App = (props: Props) => {
     <React.Fragment>
       <AdditionalStyles />
       <CanduProvider
-        key={{ ...styleguideToRender, Flex, FlexItem }}
+        key={styleguideToRender}
         clientToken={clientToken || 'dR8ZTszcnp'}
         userId={userId || 'test-user'}
         traits={{}}
-        styleguide={selectedStyleguide}
+        styleguide={{ ...selectedStyleguide, Flex, FlexItem }}
       >
         <Ant>
           <Routes />
