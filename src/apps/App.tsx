@@ -8,8 +8,16 @@ import Ant from './Ant';
 import { styleguides } from '../constants';
 import { ReduxState } from '../redux/reducers';
 import { initAuth } from '../redux/actions/auth';
-
 import Routes from './Routes';
+
+const Flex: FunctionComponent<any> = ({ children, ...otherProps }) => (
+  <div style={{ display: 'flex', flexWrap: 'wrap' }} {...otherProps}>
+    {children}
+  </div>
+);
+const FlexItem: FunctionComponent<any> = ({ children, style }) => (
+  <div style={{ ...style, flex: '0 0', marginBottom: 16, marginRight: 16 }}>{children}</div>
+);
 
 interface Props {
   auth: any;
@@ -36,7 +44,7 @@ const App = (props: Props) => {
     <React.Fragment>
       <AdditionalStyles />
       <CanduProvider
-        key={styleguideToRender}
+        key={{ ...styleguideToRender, Flex, FlexItem }}
         clientToken={clientToken || 'dR8ZTszcnp'}
         userId={userId || 'test-user'}
         traits={{}}

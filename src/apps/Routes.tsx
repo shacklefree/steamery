@@ -1,14 +1,14 @@
-import React from "react"
-import { Route, Switch } from "react-router-dom"
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import Explore from "../pages/Explore"
+import Explore from '../pages/Explore';
 
 const Routes = () => (
-    <Switch>
-      <Route path="*">
-        <Explore />
-      </Route>
-    </Switch>
-  )
+  <Switch>
+    <Route path="*">
+      <Explore />
+    </Route>
+  </Switch>
+);
 
-export default Routes
+export default Routes;
