@@ -18,7 +18,7 @@ const Explore = () => (
       <Route path="/draft">
         <ExploreDraft />
       </Route>
-      <Route path="/testStyleguide">
+      <Route path="/test-styleguide">
         <Tutorial tutorialId={-1} />
       </Route>
       <Route path="/sdk-test">

@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { FunctionComponent, useEffect } from 'react';
 import queryString from 'qs';
-import { CanduProvider } from '@candulabs/react-sdk';
 import { connect } from 'react-redux';
+import { CanduProvider } from '@candulabs/react-sdk';
 
 import Ant from './Ant';
 
@@ -20,9 +20,11 @@ interface Props {
 const App = (props: Props) => {
   const { initAuth, styles } = props;
   const styleguideToRender = styles.styleguide || styleguides[0].id;
-  const { styleguide: selectedStyleguide } = styleguides.find(
+  const { styleguide: selectedStyleguide, Additional } = styleguides.find(
     ({ id }) => id === styleguideToRender,
   ) || { styleguide: {} };
+
+  const AdditionalStyles = Additional as FunctionComponent<any>;
 
   useEffect(() => {
     initAuth();
@@ -31,17 +33,20 @@ const App = (props: Props) => {
   const { clientToken, userId } = queryString.parse(window.location.search.replace('?', ''));
 
   return (
-    <CanduProvider
-      key={styleguideToRender}
-      clientToken={clientToken || 'dR8ZTszcnp'}
-      userId={userId || 'test-user'}
-      traits={{}}
-      styleguide={selectedStyleguide}
-    >
-      <Ant>
-        <Routes />
-      </Ant>
-    </CanduProvider>
+    <React.Fragment>
+      <AdditionalStyles />
+      <CanduProvider
+        key={styleguideToRender}
+        clientToken={clientToken || 'dR8ZTszcnp'}
+        userId={userId || 'test-user'}
+        traits={{}}
+        styleguide={selectedStyleguide}
+      >
+        <Ant>
+          <Routes />
+        </Ant>
+      </CanduProvider>
+    </React.Fragment>
   );
 };
 

@@ -4,8 +4,10 @@
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@candulabs/react-evergreen-styleguide": "file:.yalc/@candulabs/react-evergreen-styleguide",
-    "@candulabs/react-sdk": "file:.yalc/@candulabs/react-sdk",
+    "@candulabs/react-antd-styleguide": "0.0.16",
+    "@candulabs/react-bootstrap-styleguide": "0.0.16",
+    "@candulabs/react-evergreen-styleguide": "0.0.16",
+    "@candulabs/react-sdk": "0.0.16",
     "@types/qs": "^6.9.1",
     "@types/react-outside-click-handler": "^1.3.0",
     "@types/react-redux": "^7.1.7",
