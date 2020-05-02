@@ -933,49 +933,49 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
-"@candulabs/eventing@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.0.17.tgz#a30f380e5a7d2de09d634886decd3d16ab508aaa"
-  integrity sha512-fBZ7aIdALPTW/qiRodqRMm/GK1Tj3cVS8kcsnBE2lNbJzrMhtEnxlTlk5PZdmmzfFDa/LPImA5AHMXdpJvCZRQ==
+"@candulabs/eventing@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.0.20.tgz#dce2299852f42cc6fec719d848db5f51acd37318"
+  integrity sha512-ptCjDevBGbvV63kq76eYotOmGUzbJdYBUSAZ4rfXWMa8n26f663y6HLRqBfLgW9VGu1TSL08VivyD0CaJdK0Ow==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.0.17.tgz#c56a6526c160531b5f68e8f23a27a11be5d54d13"
-  integrity sha512-G701R+DLA5jsFbulWhbSGRVQbUBdGNSWzzXtIKqzim4NuglkeXCXGCnm+7niggSYMnFUphzmVLrkIhPGpqwemg==
+"@candulabs/models@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.0.20.tgz#e8bf2af2495f6bb50b0c65996718c41f5718c49c"
+  integrity sha512-aAudwxpGCYgbo71rj8QXn/pyTiIRpIO+HkXSmxLmdZTv5O1Q5IWFue8mIHJA196r6VN6NFSUksUPuWqD1h30KQ==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-antd-styleguide@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.0.17.tgz#e43855e9332cc21d8b2bd0476458c81ba2dc011e"
-  integrity sha512-KlEbnz3ro7CIaUvlTpDE9qh6TlbPl6wW2puBnEM6ePi6IvoQqamDMrR0A1N9cb3Qrh9M4vdz6TwsG7panOp+ow==
+"@candulabs/react-antd-styleguide@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.0.20.tgz#25f183c7aa59e7c10b60e3b7ae031a28e0c3b4bd"
+  integrity sha512-Vb+ViM27R1A5o1qwPIeJmQvSotlVcaOfvxOA7bH6kONfMAMRZfTAF2H1lWPjQ+f7vjnIS+ZX3KKZnUFw339Y6w==
   dependencies:
-    "@candulabs/models" "^0.0.17"
+    "@candulabs/models" "^0.0.20"
 
-"@candulabs/react-bootstrap-styleguide@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.0.17.tgz#9b62d55e2b642783479a6656d1922fc239b16112"
-  integrity sha512-0lv19TZemPSnF2aaF4c7pWznnpCj3/0eGe9ymdkQnbi6ni4JrsBRYMJa+h+/dSRMSWNva61Pdz7rw/9vyrtqeQ==
+"@candulabs/react-bootstrap-styleguide@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.0.20.tgz#2c2e907cbd664446321d7be5734fcd51b3ddf673"
+  integrity sha512-fcGGRct2snjDcSbX6jlPY4KemuvLadfXIz7eeH1KNUagcR2OGpGb2yX5aRR3nhoctHCIXFyT1T8/1hQCkKvwFw==
   dependencies:
-    "@candulabs/models" "^0.0.17"
+    "@candulabs/models" "^0.0.20"
 
-"@candulabs/react-evergreen-styleguide@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.0.17.tgz#b280e979e5d057ee7fa831da0f82a502295950e1"
-  integrity sha512-36FLPJ2ITOrGa4yk+ElpaPadi+78GlwsZLE7Yas5ibRU8ZqrwQPYtm11RQ3KUfG4reSuM7X/lWGpZmn59+qwFg==
+"@candulabs/react-evergreen-styleguide@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.0.20.tgz#23a6e6545e7d4d32eb900804c6b07f0486d6405c"
+  integrity sha512-LEc8JaYL8KzGRTean/+V08lpQh9ErTmTx0w/ZDM9GuvQwmwFcdKfxkJEMcci41uGUvTTrY6LPNhDQ8XGwd5VzA==
   dependencies:
-    "@candulabs/models" "^0.0.17"
+    "@candulabs/models" "^0.0.20"
 
-"@candulabs/react-sdk@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.0.17.tgz#b309fed11d38332be557428c2312fbe1c3b4be13"
-  integrity sha512-2HSI0Q3cuaKqqYSYn8v171TQ+1sKNGHRLrpW5KoubJohs1qzVdR2LSsjWSsSLC9EgF7HxGFGiRLaRIodQodebg==
+"@candulabs/react-sdk@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.0.20.tgz#a1b215559849e2810153ba3ed040c42dd9822709"
+  integrity sha512-Vqe0YDauPgCLRtBAhCiVM3xvYbOvC4MWiV0AlXkmyukaKoSx8iLROkU1e7eKIsGFyujAboMjkLBDalCN02QHew==
   dependencies:
-    "@candulabs/eventing" "^0.0.17"
-    "@candulabs/models" "^0.0.17"
+    "@candulabs/eventing" "^0.0.20"
+    "@candulabs/models" "^0.0.20"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -6083,7 +6083,7 @@ internal-ip@^4.3.0:
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
-  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  resolved "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   dependencies:
     loose-envify "^1.0.0"
@@ -6903,7 +6903,7 @@ jest@24.9.0:
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-tokens@^3.0.2:
@@ -7316,7 +7316,7 @@ lodash.uniq@^4.5.0:
 
 "lodash@>=3.5 <5", lodash@^4.16.5, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loglevel@^1.6.6:
@@ -7336,7 +7336,7 @@ long@~3:
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
@@ -10054,10 +10054,15 @@ react-event-listener@^0.5.1:
     prop-types "^15.6.0"
     warning "^3.0.0"
 
-react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
+react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.4, react-is@^16.9.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-lazy-load@^3.0.13:
   version "3.0.13"
