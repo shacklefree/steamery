@@ -10,6 +10,7 @@
 /build
 
 .yalc
+yalc.lock
 
 # misc
 .DS_Store
