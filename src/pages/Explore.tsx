@@ -21,6 +21,9 @@ const Explore = () => (
       <Route path="/test-styleguide">
         <Tutorial tutorialId={-1} />
       </Route>
+      <Route path="/launch-darkly">
+        <Portal slug="launch-darkly" />
+      </Route>
       <Route path="/sdk-test">
         {({ location }) => {
           const portalSlug = queryString.parse(location.search.replace('?', '')).portalSlug;
