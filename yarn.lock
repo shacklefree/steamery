@@ -933,49 +933,49 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
-"@candulabs/eventing@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.1.18.tgz#c62421a2022b361e66b9c91f149f26e2d45e6aa9"
-  integrity sha512-tMD+pMUaBObkjzuucdromltd5yLtNFl9svUKbOfRaPMjTUr/WBpTWiRxU0T8vyYtx+F4XnjODJrSworf/Ak/aQ==
+"@candulabs/eventing@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.1.23.tgz#98fc38008eb41deec17171f04bd6f41b924f919b"
+  integrity sha512-rNnmcF7I5m9qwvICViGPo+ZMER5efaGV9le7QpuBn9TNljlWe3FhC6LyzPL2dyMlmFriDruuIaO0WWaLZk4Cug==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.1.18.tgz#4d2c27fb3c16de1f994d6e363ff52e2eaf9ebd1f"
-  integrity sha512-7LOGAGWcxTVPB3ThNrtlzwW90kmzN7r+tgYOOMoHOlbMqjAJKdiSiIJOTsb8BISNB+0lPBvm2Wjvs18RihUh7w==
+"@candulabs/models@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.1.23.tgz#20fd32505c90f42603f6bfaa42214a33fcc0f9b5"
+  integrity sha512-Aex+Y8FN21v1znnwfciNAxtTTviKyJ0IBjHK141pwzgpReEfn1GDLQRL93PgCe+71QhYSiYzmHI6xYOJLiQFbA==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-antd-styleguide@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.1.18.tgz#d933c0d7b12aa1ee3dc84c0f09558e09d9162a7b"
-  integrity sha512-UAPK5vcWXi9S5kOQX7r/PI/VkiDuD4qtNWoxQNTYSWS/Il/ywyvykFcyL/Tg/wIdba5FPKy/0FN2CKc41M6ABw==
+"@candulabs/react-antd-styleguide@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.1.23.tgz#5db20a69b76e7562aaa16a4bd9751332f99df12b"
+  integrity sha512-OQbC6WlfyQTf9cl+kQJOG/VB03Wk5EyqDV3DLd6JNvZi1qpDFrhit8p+vjL2iOQDEfiOCPmAqCSeFIcPrHP9RQ==
   dependencies:
-    "@candulabs/models" "^0.1.18"
+    "@candulabs/models" "^0.1.23"
 
-"@candulabs/react-bootstrap-styleguide@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.1.18.tgz#bdf865fec62ce873cfae31f30f985d31ce63bbba"
-  integrity sha512-TCov1ZfjwLpFoOQi9N5IdYX/skh1ewYuRdXajYJ9yKqslz5yAf3z1/6U7mw0RXI7uHIcsyUdme7NrA7C/1vdbg==
+"@candulabs/react-bootstrap-styleguide@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.1.23.tgz#c049432683f329af47e2fe53654c61e5e2c23da4"
+  integrity sha512-Hs/ocP3lNb3Xd58wzfQpCLvbGe3AQeilXd+aTLDlWhen9PBkpw9GfnOKqYupCGb0HMnIhkGPwCFuZcCfa+wvFg==
   dependencies:
-    "@candulabs/models" "^0.1.18"
+    "@candulabs/models" "^0.1.23"
 
-"@candulabs/react-evergreen-styleguide@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.1.18.tgz#ffa99b03d2ace62106c832b83f72533c0378b86c"
-  integrity sha512-jFzab/OtD5up/b64RbEEb7nzwuCg/VsK9xeUFLI01NH9OsUDi2aCrREI2yjqRxWXj5s5NGCJf2byPV+8XmpG+A==
+"@candulabs/react-evergreen-styleguide@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.1.23.tgz#87b786f8e6d44bc13060884fe3cb53b3c20d5a34"
+  integrity sha512-U45pNUHnQlymzM7/7AoVHyzbD7u8+AusXToIdI5y5TF0jNmx/13rSNU0dy8IhV5T+PjdExqARORXmdiMDTRDbQ==
   dependencies:
-    "@candulabs/models" "^0.1.18"
+    "@candulabs/models" "^0.1.23"
 
-"@candulabs/react-sdk@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.1.18.tgz#2f4a4712ef48df32df4ffc813c4d57b5676b0e60"
-  integrity sha512-3Kp8Sr5q+KMz8MtpZsm2zRz06F7vERgHuATKhlbcy7GVL691HHsioFu317B4S14TRRcDVxXLcFaJ+vZcTL1xQQ==
+"@candulabs/react-sdk@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.1.23.tgz#fb0925a1c7bb372c56e0e3f671ce869303be47f0"
+  integrity sha512-Clksj907JPAugPCqwby2AivZBH4l0YsjtFImpYYvEoMsU2kdcPXph1nAiRnEVa+QksBS7z9lKntADpwHeoQJqA==
   dependencies:
-    "@candulabs/eventing" "^0.1.18"
-    "@candulabs/models" "^0.1.18"
+    "@candulabs/eventing" "^0.1.23"
+    "@candulabs/models" "^0.1.23"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
