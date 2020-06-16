@@ -4,9 +4,9 @@
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@candulabs/react-antd-styleguide": "^0.2.01",
-    "@candulabs/react-bootstrap-styleguide": "^0.2.01",
-    "@candulabs/react-evergreen-styleguide": "^0.2.01",
+    "@candulabs/react-antd-styleguide": "^0.2.7",
+    "@candulabs/react-bootstrap-styleguide": "^0.2.7",
+    "@candulabs/react-evergreen-styleguide": "^0.2.7",
     "@candulabs/react-sdk": "^0.2.3",
     "@types/qs": "^6.9.1",
     "@types/react-outside-click-handler": "^1.3.0",
