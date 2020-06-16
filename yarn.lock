@@ -941,33 +941,40 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.2.1", "@candulabs/models@^0.2.3":
+"@candulabs/models@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.2.3.tgz#9e4ccad815cd16b3bc3ac5dcf35cee984269e86f"
   integrity sha512-OUd1lwBqRlZ3FjtaU4X1WTMqU/o2AxPG6M8+dKUg6mGey5q9ojMiCwzTDcB/AvbNAE3Aj+sIU4SWM6r2/MMgww==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-antd-styleguide@^0.2.01":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.2.1.tgz#d871c6cf50129c7c2b02a4e8663726539a910654"
-  integrity sha512-k1ADpZCAXvW/W9RSp37O5i8MUoU+0Pcc9THBRB+jQVKzuenr/BtuTldzFMW7gw5cnvnffWKcAkONXOoGE0nCPQ==
+"@candulabs/models@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.2.7.tgz#1f04ee3b7abb85d816b95e0f7d21daa28509805e"
+  integrity sha512-iLZQbOBoHtokZTb2V79l4L/n5qMbTh44C2UIuymeBnz44y4ODmkRL8OErS81rqpmzDA6DNy/BgLiAborCcy/ow==
   dependencies:
-    "@candulabs/models" "^0.2.1"
+    lodash "^4.17.15"
 
-"@candulabs/react-bootstrap-styleguide@^0.2.01":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.2.1.tgz#adb1cb3953928a2f0cd4fdeba251f910d02057c5"
-  integrity sha512-hHwZRNQpKyfd3togtIbBh8QrHMrUxB/HDx6V1BiEtviLHsR5cI03nLWA0QUNtlBGcN4MJXQxf+5wH8q/vZeaSw==
+"@candulabs/react-antd-styleguide@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.2.7.tgz#b3d4642e537bbbddabb98e283999f5289228bb9b"
+  integrity sha512-cC0AFzWR2BxpigL0+yprG0QKBWB8t7jDB2Zdx6GY3n3sMWw0HiB2ysZd5vlCguPoz03+3QD5+nftPKJ+dGCIrg==
   dependencies:
-    "@candulabs/models" "^0.2.1"
+    "@candulabs/models" "^0.2.7"
 
-"@candulabs/react-evergreen-styleguide@^0.2.01":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.2.1.tgz#f8eee3f7ab2ca75e4456229ccb7a1de9016006f4"
-  integrity sha512-cLgE8MujfnXhFQ1jc1+cSL3teh9CKB4ecfVJeDeDtxANVtSsNCDU2okl9D41zkTw3Jxw5f2F4Fq+fFANB/Dk4g==
+"@candulabs/react-bootstrap-styleguide@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.2.7.tgz#f7c483907c578fff2038c8097b188385c2ed016b"
+  integrity sha512-YVuG1WjclFKXCXC02oDUXKE0zmpKuSDQQKu6X21rzZ3sJxCOBLdBi+kD4CixPQNyq5YrUQIaL49WCeqesqJTcQ==
   dependencies:
-    "@candulabs/models" "^0.2.1"
+    "@candulabs/models" "^0.2.7"
+
+"@candulabs/react-evergreen-styleguide@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.2.7.tgz#5d3b3f9df46de95013d3e33e55dc9d558b6487db"
+  integrity sha512-zzwM+2IYLCWDXAm0ittSctQ8/Wo0z/KDdk68YMQl5PKD8ZQgippINOEkHHkx8jsTSj5S8brhqRaK4etZUI0mmw==
+  dependencies:
+    "@candulabs/models" "^0.2.7"
 
 "@candulabs/react-sdk@^0.2.3":
   version "0.2.3"
