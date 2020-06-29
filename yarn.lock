@@ -933,18 +933,18 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
-"@candulabs/eventing@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.3.11.tgz#f2da9305709facd71372d4176fb2c8e6fa6ab834"
-  integrity sha512-jQ8178jmBHCJ5xonlxsUH4GnV+neXlyMpKJsxBV7q62emVHlR0lxEHIGAF4ovqw8cCbNrYfbgFx00op02Qu3OA==
+"@candulabs/eventing@^0.3.13":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.3.13.tgz#be5d42e8d3122daaf1285c73453cd17e99530172"
+  integrity sha512-QjsztD7MgKtDC84brYhTyxEu71ipG0idrtotUH+0XIRZLPcX0qC6xw31JBtIVi1nOYpuQ6v4TQ4OOeRj36e8dA==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.3.11.tgz#dc94d456d5c45fc052ef0ab4c5375d91908e145f"
-  integrity sha512-/JuZIOm4UhTQhtzraBH+05sjeTtJCKiTPMjeycepOnSAGCXgTk/AU2W04Eenuxf3SrPwNX6wXul20OC2unnBTQ==
+"@candulabs/models@^0.3.11", "@candulabs/models@^0.3.13":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.3.13.tgz#a80b34af98aa387229973c5ee6852b84d4d86e2c"
+  integrity sha512-p1Th2GdU02VBjOncv9KjKGIIF2V4hKXhtYJAxFWLxkNKhyEV2ZX6ntbI7X19T4DzL26k8OQ0jnhVrLOwFHED6A==
   dependencies:
     lodash "^4.17.15"
 
@@ -970,12 +970,12 @@
     "@candulabs/models" "^0.3.11"
 
 "@candulabs/react-sdk@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.3.11.tgz#2de63b2a4e92e9d640e298594b5207bb0fe54fac"
-  integrity sha512-07eMFFynaA0g8RKmRR5t7GEhzeYjbsWQhcMiui+vbTl6XNHqDZc/UJRXf7xS9vRoOnU2H4F5M4LlemFvkaYClw==
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.3.13.tgz#a2167feed056ab020c9e304095ab539475fae3ef"
+  integrity sha512-dSpASVWb7l4bgrAj1iXLlDGr6Nn5TnEgUL3zMcwAb9hX8OUsy5nVM1wugfaSIKvZL9TNSq2a7k4gilsmemvwrw==
   dependencies:
-    "@candulabs/eventing" "^0.3.11"
-    "@candulabs/models" "^0.3.11"
+    "@candulabs/eventing" "^0.3.13"
+    "@candulabs/models" "^0.3.13"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
