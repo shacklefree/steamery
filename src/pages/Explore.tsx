@@ -28,7 +28,7 @@ const Explore = () => (
         {({ location }) => {
           const portalSlug = queryString.parse(location.search.replace('?', '')).portalSlug;
 
-          return <Portal slug={portalSlug || 'datadog-test-portal'} />;
+          return <Portal slug={(portalSlug as string) || 'datadog-test-portal'} />;
         }}
       </Route>
       <Route path="/">
