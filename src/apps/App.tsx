@@ -36,7 +36,7 @@ const App = (props: Props) => {
 
   useEffect(() => {
     initAuth();
-  }, []);
+  }, [initAuth]);
 
   const { clientToken, userId } = queryString.parse(window.location.search.replace('?', ''));
 

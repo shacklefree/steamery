@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography, Button, Divider, Card, Avatar } from 'antd';
 import styled from 'styled-components';
 
-import { FormComponentProps } from 'antd/lib/form/Form';
 import { connect } from 'react-redux';
 
 import { logout } from '../../../redux/actions/auth';
