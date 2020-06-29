@@ -45,8 +45,8 @@ const App = (props: Props) => {
       <AdditionalStyles />
       <CanduProvider
         key={styleguideToRender}
-        clientToken={clientToken || 'dR8ZTszcnp'}
-        userId={userId || 'test-user'}
+        clientToken={(clientToken as string) || 'dR8ZTszcnp'}
+        userId={(userId as string) || 'test-user'}
         traits={{}}
         styleguide={{ ...selectedStyleguide, Flex, FlexItem }}
       >

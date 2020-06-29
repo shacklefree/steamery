@@ -1,42 +1,42 @@
-import React from "react"
-import { Typography, Button, Divider, Card, Avatar } from "antd"
-import styled from "styled-components"
+import React from 'react';
+import { Typography, Button, Divider, Card, Avatar } from 'antd';
+import styled from 'styled-components';
 
-import { FormComponentProps } from "antd/lib/form/Form"
-import { connect } from "react-redux"
+import { FormComponentProps } from 'antd/lib/form/Form';
+import { connect } from 'react-redux';
 
-import { logout } from "../../../redux/actions/auth"
-import { ReduxState } from "../../../redux/reducers"
+import { logout } from '../../../redux/actions/auth';
+import { ReduxState } from '../../../redux/reducers';
 
-const { Title, Text } = Typography
+const { Title, Text } = Typography;
 
 const UserDetails = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 16px;
-`
+`;
 
 const Flex = styled.div`
   display: flex;
   justify-content: flex-end;
-`
+`;
 
 interface OwnProps {
-  onClose: Function
+  onClose: Function;
 }
 
 interface DispatchProps {
-  logout: () => void
-  auth: any
+  logout: () => void;
+  auth: any;
 }
 
-type Props = OwnProps & DispatchProps & FormComponentProps
+type Props = OwnProps & DispatchProps;
 
 const AntAccount = ({ onClose, logout, auth }: Props) => {
   const handleLogout = () => {
-    logout()
-    onClose()
-  }
+    logout();
+    onClose();
+  };
   return (
     <Card style={{ width: 300 }}>
       <UserDetails>
@@ -58,11 +58,11 @@ const AntAccount = ({ onClose, logout, auth }: Props) => {
         </Button>
       </Flex>
     </Card>
-  )
-}
+  );
+};
 
 const mapStateToProps = (state: ReduxState) => ({
-  auth: state.auth
-})
+  auth: state.auth,
+});
 
-export default connect(mapStateToProps, { logout })(AntAccount)
+export default connect(mapStateToProps, { logout })(AntAccount);
