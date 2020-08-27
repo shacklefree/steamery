@@ -1166,7 +1166,14 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.3.25", "@candulabs/models@^0.3.33":
+"@candulabs/models@^0.3.25":
+  version "0.3.28"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.3.28.tgz#27317a5f3fb816cb9898f0bb80483076689fcdfe"
+  integrity sha512-O73hiROTLvvWT9+ySYFGCu/+yis7sNj1OfqdoC9lfh1TsFdfG8ky+AA5Apa/YO1ZuCb7nqRhTnKzuNm8HHuQNg==
+  dependencies:
+    lodash "^4.17.15"
+
+"@candulabs/models@^0.3.33":
   version "0.3.33"
   resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.3.33.tgz#8a57b26fd833f2bdfbc8ae1be4f6d6a3dab2e440"
   integrity sha512-e4qu7vKDmB9XRlLMRrnoXaLT9AWkfTaFsBU8sLzXF3OzT118c1lsch2jLk17Apbj3kQpAAx/WQ8uV0ow8vqeSA==
