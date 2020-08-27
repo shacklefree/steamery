@@ -1,15 +1,8 @@
 {
   "version": "v1",
   "packages": {
-    "@candulabs/react-sdk": {
-      "signature": "900210e2ad8a9ad17637b8fbc3848567",
-      "replaced": "^0.0.15"
-    },
     "@candulabs/eventing": {
       "signature": "0dac8aa0f16d8d3b4f4466d8a1dc7fa7"
-    },
-    "@candulabs/models": {
-      "signature": "b8fde66e182f4276026af47051a57117"
     },
     "@candulabs/react-evergreen-styleguide": {
       "signature": "a69523d0a3d7800a57c60099169780ab"
