@@ -1158,52 +1158,64 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
-"@candulabs/eventing@^0.3.13":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.3.13.tgz#be5d42e8d3122daaf1285c73453cd17e99530172"
-  integrity sha512-QjsztD7MgKtDC84brYhTyxEu71ipG0idrtotUH+0XIRZLPcX0qC6xw31JBtIVi1nOYpuQ6v4TQ4OOeRj36e8dA==
+"@candulabs/core@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.5.0-alpha.1.tgz#ddfdad85d6c5eea960dcc68b1ceeef5948d4d6ca"
+  integrity sha512-MW41dOkwRhfoJp0l+qIB+9uF8RzW+XNM3Frfjf5IiQp7GlkTPcvMkwbD7tzkg7osHcTTl3TanUOsYtc2YM3GUw==
+  dependencies:
+    "@candulabs/models" "^0.5.0-alpha.1"
+
+"@candulabs/eventing@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.5.0-alpha.1.tgz#a436e8d3dae16ca02b2e270331c1538f4a9c23ef"
+  integrity sha512-HsAngptbL1sO/gcmsJe7lyRtc4QW8kir/pj38Y9WAVFOkF+3CIiQgPoPzQsEm6MDv5rApJSp3SsLPkKBlWA5+w==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.3.13":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.3.13.tgz#a80b34af98aa387229973c5ee6852b84d4d86e2c"
-  integrity sha512-p1Th2GdU02VBjOncv9KjKGIIF2V4hKXhtYJAxFWLxkNKhyEV2ZX6ntbI7X19T4DzL26k8OQ0jnhVrLOwFHED6A==
+"@candulabs/models@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.5.0-alpha.1.tgz#21dccb48c76bd6d12007d698abfad491d6a01df7"
+  integrity sha512-p7/fI5bACcl2NKPcqSK0q9WLoMZapoZplEO2zx1Y0RyZqeEzm7kzFhNLkiJVv85yog97NLe9Cv89wR+Y53Jbww==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-antd-styleguide@^0.3.11":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.3.13.tgz#22df3791f4ddc3206e3b5794a1b8fd4bc1c8a65a"
-  integrity sha512-mkEvczcYZ05+KGhGLyKLFuVs/KRp/wPiBVyysfuegr+EB0mTL8Ygr5ZSQvN6dq0Rv9zRt08HnIbq0JW09+lN3Q==
+"@candulabs/react-antd-styleguide@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.5.0-alpha.1.tgz#8b7bb71af48c87a5a95a3367b390f1513698c9cc"
+  integrity sha512-dUvzCnCTSGf6TIhZwRdPb34VqY4/mjcV8Pf4GizUpJmE3WKUpxG3KsdVXQi9bFHkNYpGerhpGXbTGm8OfyLfIQ==
   dependencies:
-    "@candulabs/models" "^0.3.13"
+    "@candulabs/models" "^0.5.0-alpha.1"
+    "@candulabs/react-sdk" "^0.5.0-alpha.1"
 
-"@candulabs/react-bootstrap-styleguide@^0.3.11":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.3.13.tgz#6ab5296383356e4fb6e584aaacef603dcf57a777"
-  integrity sha512-0VgZTsmK0A/zNYNsdFKg0RTv+OHMql1J49TUmY1VmNkM5PjLRGapS5qnH8XeV6datlkku+zBNh7MNC0oWl9oNw==
+"@candulabs/react-bootstrap-styleguide@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.5.0-alpha.1.tgz#deea803ab386adb24a715991dd0cbadb35b38447"
+  integrity sha512-t/RBBTLsFFs8GP7lHrv4Y4aUxSKA9WqQWrxFl/2HjjjSSfcRAtrKerDMjhRlf+7HNXVA2iw9tWwbvRE6I2/kgQ==
   dependencies:
-    "@candulabs/models" "^0.3.13"
+    "@candulabs/models" "^0.5.0-alpha.1"
+    "@candulabs/react-sdk" "^0.5.0-alpha.1"
 
-"@candulabs/react-evergreen-styleguide@^0.3.11":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.3.13.tgz#3e6e3bf495a424ab5998f2e361df066f23826772"
-  integrity sha512-TMKp5pS9vi/7SOJzNJwv7nv5DW0SPqVqjNG9jg6TEJGxIrAD3U7jpqPzFOCuS0BqslQCVkLu7FPdW2tzWlZbpw==
+"@candulabs/react-evergreen-styleguide@^0.5.0-alpha.1":
+  version "0.5.0-alpha.2"
+  resolved "https://registry.npmjs.org/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.5.0-alpha.2.tgz#400d5c1ab5ba72e2ef579e0fd5c5bd46bdc0b5f0"
+  integrity sha512-A1KQ2AbWhSumX3PI+ShM7zE1ZpOY11TavtG2Fg85grgC6m+K4CieJfJzYD3HvLPqg/M/sTCFOsvuNdii2qFqmw==
   dependencies:
-    "@candulabs/models" "^0.3.13"
+    "@candulabs/models" "^0.5.0-alpha.1"
+    "@candulabs/react-sdk" "^0.5.0-alpha.1"
 
-"@candulabs/react-sdk@^0.3.13":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.3.13.tgz#a2167feed056ab020c9e304095ab539475fae3ef"
-  integrity sha512-dSpASVWb7l4bgrAj1iXLlDGr6Nn5TnEgUL3zMcwAb9hX8OUsy5nVM1wugfaSIKvZL9TNSq2a7k4gilsmemvwrw==
+"@candulabs/react-sdk@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.5.0-alpha.1.tgz#7e684aa7a4af0a06b2a2f9a0b74bf2907f9058f4"
+  integrity sha512-Ao2xq+EJ0nfmr9Yn2X/mvec2BdpV16m+mtpu8ZFqnBDVW3Xa77OJV/DkL/I4riqHfm6AFTfZ7BYMhQOPyYkRWA==
   dependencies:
-    "@candulabs/eventing" "^0.3.13"
-    "@candulabs/models" "^0.3.13"
+    "@candulabs/core" "^0.5.0-alpha.1"
+    "@candulabs/eventing" "^0.5.0-alpha.1"
+    "@candulabs/models" "^0.5.0-alpha.1"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
+    react-player "^2.6.2"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -4237,6 +4249,11 @@ deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
+deepmerge@^4.0.0:
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/default-gateway/-/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -7082,7 +7099,7 @@ jest@24.9.0:
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-tokens@^3.0.2:
@@ -7381,6 +7398,11 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
+
 loader-fs-cache@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz#f08657646d607078be2f0a032f8bd69dd6f277d9"
@@ -7490,10 +7512,15 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.16.5, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
+"lodash@>=3.5 <5", lodash@^4.16.5, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.15:
+  version "4.17.20"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 loglevel@^1.6.6:
   version "1.6.8"
@@ -7507,7 +7534,7 @@ long@^4.0.0:
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
@@ -7604,6 +7631,11 @@ mem@^4.0.0:
     map-age-cleaner "^0.1.1"
     mimic-fn "^2.0.0"
     p-is-promise "^2.0.0"
+
+memoize-one@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
+  integrity sha512-HKeeBpWvqiVJD57ZUAsJNm71eHTykffzcLZVYWiVfQeI1rJtuEaS7hQiEpWfVVk18donPwJEcFKIkCmPJNOhHA==
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -10117,6 +10149,11 @@ react-event-listener@^0.5.1:
     prop-types "^15.6.0"
     warning "^3.0.0"
 
+react-fast-compare@^3.0.1:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
+  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
+
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -10147,6 +10184,17 @@ react-outside-click-handler@^1.3.0:
     document.contains "^1.0.1"
     object.values "^1.1.0"
     prop-types "^15.7.2"
+
+react-player@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/react-player/-/react-player-2.6.2.tgz#d41fe842f5bd6a2b1d3ce1ba9ed82c3eb26e0df4"
+  integrity sha512-Wi9DynNSVgddKxac5OzsH0Upk6VRYssvLLGgCRw6vsjzqMX6S5N26WDRNYnLaHykxFNtpPSDc53fXDe52hMaCg==
+  dependencies:
+    deepmerge "^4.0.0"
+    load-script "^1.0.0"
+    memoize-one "^5.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.0.1"
 
 react-redux@^7.1.3:
   version "7.2.0"
