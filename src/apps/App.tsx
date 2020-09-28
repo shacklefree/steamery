@@ -10,15 +10,6 @@ import { ReduxState } from '../redux/reducers';
 import { initAuth } from '../redux/actions/auth';
 import Routes from './Routes';
 
-const Flex: FunctionComponent<any> = ({ children, style }) => (
-  <div style={{ ...style, display: 'flex', flexWrap: 'wrap' }}>{children}</div>
-);
-const FlexItem: FunctionComponent<any> = ({ children, style }) => (
-  <div style={{ ...style, flex: '0 0', marginBottom: 16, marginRight: 16, minWidth: 250 }}>
-    {children}
-  </div>
-);
-
 interface Props {
   auth: any;
   initAuth: any;
@@ -48,7 +39,7 @@ const App = (props: Props) => {
         clientToken={(clientToken as string) || 'dR8ZTszcnp'}
         userId={(userId as string) || 'test-user'}
         traits={{}}
-        styleguide={{ ...selectedStyleguide, Flex, FlexItem }}
+        styleguide={{ ...selectedStyleguide }}
       >
         <Ant>
           <Routes />
