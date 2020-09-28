@@ -1,8 +1,8 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { Layout, Menu, Icon, Typography } from 'antd';
-import { Link } from 'react-router-dom';
+import { Link, useRouteMatch, useLocation } from 'react-router-dom';
 
 import '../styles/sider.css';
 
@@ -33,8 +33,22 @@ interface ReduxProps {
 
 type Props = OwnProps & ReduxProps;
 
+const keyMap = {
+  '1': '/',
+  '2': '/draft',
+  '3': '/test-styleguide',
+  '4': '/launch-darkly',
+};
+
+const locationToKey = (location) => {
+  const activeKey = Object.keys(keyMap).find((key) => keyMap[key] === location.pathname) ?? '';
+  return [activeKey];
+};
+
 const AntSider = ({ collapsed, auth, logout }: Props) => {
   const handleLogout = () => logout();
+  const location = useLocation();
+  console.log({ location });
   return (
     <Sider trigger={null} collapsible collapsed={collapsed} className="candu-ant-sider">
       <Link to="/">
@@ -50,41 +64,47 @@ const AntSider = ({ collapsed, auth, logout }: Props) => {
       <Menu
         theme="dark"
         mode="inline"
-        defaultSelectedKeys={['1']}
+        selectedKeys={locationToKey(location)}
         style={{ flex: '1 1', display: 'flex', flexDirection: 'column' }}
       >
         <Menu.Item key="1">
+          <Link to="/">
+            <Icon type="laptop" />
+            <span>Resource center</span>
+          </Link>
+        </Menu.Item>
+        <Menu.Item key="2">
           <Link to="/draft">
             <Icon type="mail" />
             <span>Draft</span>
           </Link>
         </Menu.Item>
-        <Menu.Item key="2">
+        <Menu.Item key="3">
           <Link to="/test-styleguide">
             <Icon type="database" />
             <span>Test Styleguide</span>
           </Link>
         </Menu.Item>
-        <Menu.Item key="3">
+        <Menu.Item key="4">
           <Link to="/launch-darkly">
             <Icon type="database" />
             <span>Launch Darkly</span>
           </Link>
         </Menu.Item>
-        <Menu.Item key="4">
+        <Menu.Item key="5">
           <Icon type="upload" />
           <span>Documents</span>
         </Menu.Item>
         <div style={{ flex: '1 1' }} />
-        <Menu.Item key="5">
+        <Menu.Item key="6">
           <Icon type="bell" />
           <span>Alerts</span>
         </Menu.Item>
-        <Menu.Item key="6">
+        <Menu.Item key="7">
           <Icon type="compass" />
           <span>Explore</span>
         </Menu.Item>
-        <Menu.Item key="7">
+        <Menu.Item key="8">
           <Icon type="setting" />
           <span>Settings</span>
         </Menu.Item>
