@@ -19,7 +19,7 @@ const Explore = () => (
         <ExploreDraft />
       </Route>
       <Route path="/test-styleguide">
-        <Tutorial tutorialId={187} />
+        <Tutorial slug="all-nodes" />
       </Route>
       <Route path="/launch-darkly">
         <Portal slug="launch-darkly" />

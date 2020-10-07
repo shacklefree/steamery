@@ -1158,60 +1158,62 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
-"@candulabs/core@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.5.0-alpha.1.tgz#ddfdad85d6c5eea960dcc68b1ceeef5948d4d6ca"
-  integrity sha512-MW41dOkwRhfoJp0l+qIB+9uF8RzW+XNM3Frfjf5IiQp7GlkTPcvMkwbD7tzkg7osHcTTl3TanUOsYtc2YM3GUw==
+"@candulabs/core@^0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.5.0-alpha.3.tgz#78e1973a4fdb42a9b43865549b0b983760397757"
+  integrity sha512-1+VcWB25M5qlcFk8w0lufxToxH+OYCPxmVUEKjaQTAS9c0zFfvT9ahQF+hOa3lhISvVIkkh+DWbtzArUjsbnuQ==
   dependencies:
-    "@candulabs/models" "^0.5.0-alpha.1"
+    "@candulabs/eventing" "^0.5.0-alpha.3"
+    "@candulabs/models" "^0.5.0-alpha.3"
+    react-style-object-to-css "^1.1.2"
 
-"@candulabs/eventing@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.5.0-alpha.1.tgz#a436e8d3dae16ca02b2e270331c1538f4a9c23ef"
-  integrity sha512-HsAngptbL1sO/gcmsJe7lyRtc4QW8kir/pj38Y9WAVFOkF+3CIiQgPoPzQsEm6MDv5rApJSp3SsLPkKBlWA5+w==
+"@candulabs/eventing@^0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.5.0-alpha.3.tgz#66a6d85916b73d2a4fcf0515ae787409be0e076b"
+  integrity sha512-TKJdUB0wCO0tDG0C21YS+ICSCKR3KYaO1J6nBHnM9KwllOZpq0fG4ouqb3usx51+/K5Tk45NScXQCbC2aCpuQg==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/models@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.5.0-alpha.1.tgz#21dccb48c76bd6d12007d698abfad491d6a01df7"
-  integrity sha512-p7/fI5bACcl2NKPcqSK0q9WLoMZapoZplEO2zx1Y0RyZqeEzm7kzFhNLkiJVv85yog97NLe9Cv89wR+Y53Jbww==
+"@candulabs/models@^0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.5.0-alpha.3.tgz#ca7db34254cdb11327dd5643fef4608669f0345e"
+  integrity sha512-vc6wX2uFEFGL2aPKA0Tv+VDVVK2bNmAmf7qRjh1tSByLs7YELWIOcog4RITLnQUI8zDsFr6i2PphRWpq03nyHQ==
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/react-antd-styleguide@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.5.0-alpha.1.tgz#8b7bb71af48c87a5a95a3367b390f1513698c9cc"
-  integrity sha512-dUvzCnCTSGf6TIhZwRdPb34VqY4/mjcV8Pf4GizUpJmE3WKUpxG3KsdVXQi9bFHkNYpGerhpGXbTGm8OfyLfIQ==
+"@candulabs/react-antd-styleguide@0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-antd-styleguide/-/react-antd-styleguide-0.5.0-alpha.3.tgz#e8c69c859d9c22dc58276ed5b296be9e2abd9a4d"
+  integrity sha512-t8AT0qZfbKNzJAoIW9og0v1leQjDxE7CiT4KNcRWJDtPHXUSVNn6qtm1VvXx2RChZ1l+z/NimwaslixdntsN+g==
   dependencies:
-    "@candulabs/models" "^0.5.0-alpha.1"
-    "@candulabs/react-sdk" "^0.5.0-alpha.1"
+    "@candulabs/models" "^0.5.0-alpha.3"
+    "@candulabs/react-sdk" "^0.5.0-alpha.3"
 
-"@candulabs/react-bootstrap-styleguide@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.5.0-alpha.1.tgz#deea803ab386adb24a715991dd0cbadb35b38447"
-  integrity sha512-t/RBBTLsFFs8GP7lHrv4Y4aUxSKA9WqQWrxFl/2HjjjSSfcRAtrKerDMjhRlf+7HNXVA2iw9tWwbvRE6I2/kgQ==
+"@candulabs/react-bootstrap-styleguide@0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-bootstrap-styleguide/-/react-bootstrap-styleguide-0.5.0-alpha.3.tgz#f832095302eb36301cc339b409e5be67ba6c227b"
+  integrity sha512-o/BTltj0/4XIljvz9Kx5e3FAxrb8Ixuv12Gj9TvbS1rBdghqOGN2GR0rT6dsF6yvHqdr2lbVxdnnHgNywIu5eQ==
   dependencies:
-    "@candulabs/models" "^0.5.0-alpha.1"
-    "@candulabs/react-sdk" "^0.5.0-alpha.1"
+    "@candulabs/models" "^0.5.0-alpha.3"
+    "@candulabs/react-sdk" "^0.5.0-alpha.3"
 
-"@candulabs/react-evergreen-styleguide@^0.5.0-alpha.1":
-  version "0.5.0-alpha.2"
-  resolved "https://registry.npmjs.org/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.5.0-alpha.2.tgz#400d5c1ab5ba72e2ef579e0fd5c5bd46bdc0b5f0"
-  integrity sha512-A1KQ2AbWhSumX3PI+ShM7zE1ZpOY11TavtG2Fg85grgC6m+K4CieJfJzYD3HvLPqg/M/sTCFOsvuNdii2qFqmw==
+"@candulabs/react-evergreen-styleguide@0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-evergreen-styleguide/-/react-evergreen-styleguide-0.5.0-alpha.3.tgz#a18cb89d569cba2f046ce7efd7712ff1223f3a6a"
+  integrity sha512-3LK34Cz1+2qNG8NU4cGIV/P2CN9kGdgxcUJvv3LKO7sPi6p6IT1AeJdnAMh1Kc0w3Vvz5HYpCW1w4HT8orDSSg==
   dependencies:
-    "@candulabs/models" "^0.5.0-alpha.1"
-    "@candulabs/react-sdk" "^0.5.0-alpha.1"
+    "@candulabs/models" "^0.5.0-alpha.3"
+    "@candulabs/react-sdk" "^0.5.0-alpha.3"
 
-"@candulabs/react-sdk@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.5.0-alpha.1.tgz#7e684aa7a4af0a06b2a2f9a0b74bf2907f9058f4"
-  integrity sha512-Ao2xq+EJ0nfmr9Yn2X/mvec2BdpV16m+mtpu8ZFqnBDVW3Xa77OJV/DkL/I4riqHfm6AFTfZ7BYMhQOPyYkRWA==
+"@candulabs/react-sdk@0.5.0-alpha.3", "@candulabs/react-sdk@^0.5.0-alpha.3":
+  version "0.5.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.5.0-alpha.3.tgz#ef9748882578955ca8514164a18f99ec1514011d"
+  integrity sha512-znVjJcDEjhsQ2z6MuI3TjZvUecjqIqyqvprxpT7Ls21OajDqS4JgkDC66MtUeH8+/18Nk4wNrkNsOR8JbN9zPw==
   dependencies:
-    "@candulabs/core" "^0.5.0-alpha.1"
-    "@candulabs/eventing" "^0.5.0-alpha.1"
-    "@candulabs/models" "^0.5.0-alpha.1"
+    "@candulabs/core" "^0.5.0-alpha.3"
+    "@candulabs/eventing" "^0.5.0-alpha.3"
+    "@candulabs/models" "^0.5.0-alpha.3"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -10316,6 +10318,11 @@ react-slick@~0.25.2:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-style-object-to-css@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/react-style-object-to-css/-/react-style-object-to-css-1.1.2.tgz#3e97da92c9edf8190e30f4b27026e74285940498"
+  integrity sha512-+5MFULqCCj7wwJJ/ISKFP91ZlHVF1Rv8o0neiTKvt21XDTU5e34tc8hy+XPLeYWYOupdHt25HxxwocvYm3HM6A==
 
 react-tiny-virtual-list@^2.1.4:
   version "2.2.0"
