@@ -1167,10 +1167,10 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.4.tgz#3fba6dad1c3113f080b88e2358f3cadbc4d6dcdf"
-  integrity sha512-SqnigT1AMCLHHwe1WH1f1AsqCRZtIO5lB2pRz78k4oYOY+ncWOt8XLdJ5fmBT7MCgefn/2GsGu6jJNnad9VZTQ==
+"@candulabs/core@^0.6.0-alpha.5":
+  version "0.6.0-alpha.5"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.5.tgz#869b28f0b9d7b824b9f39395fe976a58e2af2455"
+  integrity sha512-Px/1vW+4cW2nTcPSWeJW0v9F8F4AtZSP2BxjhYRCeQIhP7OqEpeBEhE8jDCwGF6c6HBgYr/gMEetpYP4mRYNPg==
   dependencies:
     "@candulabs/eventing" "^0.6.0-alpha.4"
     "@candulabs/models" "^0.6.0-alpha.4"
@@ -1230,12 +1230,12 @@
     "@candulabs/models" "^0.5.0"
     "@candulabs/react-sdk" "^0.5.0"
 
-"@candulabs/react-sdk@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.4.tgz#121390d9377674ffa0b9fc2dd6de36414abd5593"
-  integrity sha512-7ScrPjeCQDaVySaKj2N8s+AMJVp+moU6PW14pvFWSv3UnMrGMsRXpSOdUe7oVBSG+fXYAhrULSPMubAfopCiNQ==
+"@candulabs/react-sdk@0.6.0-alpha.5":
+  version "0.6.0-alpha.5"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.5.tgz#f2db19507173ac3486c1a7b03446c00787afcc82"
+  integrity sha512-/4SdWvM3hKB++Yukz80q/uqI4muHaqRE6Fd1Cx2uPBLlbaVQWkNVZGmkjRgt9MBx6ADBa19veNzmWl3obEtHGg==
   dependencies:
-    "@candulabs/core" "^0.6.0-alpha.4"
+    "@candulabs/core" "^0.6.0-alpha.5"
     "@candulabs/eventing" "^0.6.0-alpha.4"
     "@candulabs/models" "^0.6.0-alpha.4"
     invariant "^2.2.4"
