@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.0-alpha.2":
-  version "0.6.0-alpha.2"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.2.tgz#3b80d3becd539e4d81006cdecdaa2bc800861ef6"
-  integrity sha512-+rq647w5YEBh4ZIHjxsmphrb6G9gh2mPIKjbBLZyRUepV6gaUUo6/9E5PuC1UvYOiUD/Dpu8KkEJo2/vOaLZ7A==
+"@candulabs/core@^0.6.0-alpha.4":
+  version "0.6.0-alpha.4"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.4.tgz#3fba6dad1c3113f080b88e2358f3cadbc4d6dcdf"
+  integrity sha512-SqnigT1AMCLHHwe1WH1f1AsqCRZtIO5lB2pRz78k4oYOY+ncWOt8XLdJ5fmBT7MCgefn/2GsGu6jJNnad9VZTQ==
   dependencies:
-    "@candulabs/eventing" "^0.6.0-alpha.1"
-    "@candulabs/models" "^0.6.0-alpha.1"
+    "@candulabs/eventing" "^0.6.0-alpha.4"
+    "@candulabs/models" "^0.6.0-alpha.4"
     react-style-object-to-css "^1.1.2"
 
 "@candulabs/eventing@^0.5.0":
@@ -1184,10 +1184,10 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/eventing@^0.6.0-alpha.1":
-  version "0.6.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.0-alpha.1.tgz#7f77e3d5f3cd0186916d55c00251b8bfe53c44be"
-  integrity sha512-7g+vTDHCQnZd04Fp7GEzMVvRKFXDnV8M0sO5b/oBexd6FdfYXIhN3hLSjr47nwATHVsSvb7EWlzrEDMITvcDAw==
+"@candulabs/eventing@^0.6.0-alpha.4":
+  version "0.6.0-alpha.4"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.0-alpha.4.tgz#efb78ca946bde69298a8b1ecc4bfbacf39612317"
+  integrity sha512-HJodLPf2Y1RpFGWZNFuBQdFxHngsBoMnwCTI+TYYPgETeiWdw5rYchEn/7m1NjdghZ3c7Q/FBf6Uflfy8pSaFg==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
@@ -1199,10 +1199,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.0-alpha.1":
-  version "0.6.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.0-alpha.1.tgz#09dfdca12bc65a4349c15059e6099e75d3ec1598"
-  integrity sha512-AZASSb2BJyn1idE4RXy9kXQWOigmZClvAM2c8Drxr6kZrJubSBm0Dp5uAfS5nF5cOpQB9f3jJnjFBLn0AoZ2ww==
+"@candulabs/models@^0.6.0-alpha.4":
+  version "0.6.0-alpha.4"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.0-alpha.4.tgz#9ad29de3be45be6d726e59d19ab1142d7217ec2e"
+  integrity sha512-ZhEuwYgQfAYiRhvZGqpMZ/fqqMlTnytin+iT+4ocPh394ADx3DbY4x71nXLMbKvgBwgymAlDhDovm7sDg3T6XQ==
   dependencies:
     lodash "^4.17.15"
 
@@ -1230,14 +1230,14 @@
     "@candulabs/models" "^0.5.0"
     "@candulabs/react-sdk" "^0.5.0"
 
-"@candulabs/react-sdk@0.6.0-alpha.3":
-  version "0.6.0-alpha.3"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.3.tgz#17a38faa2c0eaa34a25bb3bf59d56388bbbadef4"
-  integrity sha512-kCnw9O6EpbIjlNYKo16+SnLyHNedp6zu5J7hMCTYYPeQ+RlZIYOfl/++bNHsDqvypKs7+A3Z4RFMSZdUItlNgw==
+"@candulabs/react-sdk@0.6.0-alpha.4":
+  version "0.6.0-alpha.4"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.4.tgz#121390d9377674ffa0b9fc2dd6de36414abd5593"
+  integrity sha512-7ScrPjeCQDaVySaKj2N8s+AMJVp+moU6PW14pvFWSv3UnMrGMsRXpSOdUe7oVBSG+fXYAhrULSPMubAfopCiNQ==
   dependencies:
-    "@candulabs/core" "^0.6.0-alpha.2"
-    "@candulabs/eventing" "^0.6.0-alpha.1"
-    "@candulabs/models" "^0.6.0-alpha.1"
+    "@candulabs/core" "^0.6.0-alpha.4"
+    "@candulabs/eventing" "^0.6.0-alpha.4"
+    "@candulabs/models" "^0.6.0-alpha.4"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
