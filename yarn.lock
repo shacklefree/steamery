@@ -1167,10 +1167,10 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.0-alpha.1":
-  version "0.6.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.1.tgz#cfa18d87472e846034e7bc122e969c3f69c6fb7e"
-  integrity sha512-nr7PfOa0XZTny5dXaWI7WxoNvZxgPBs8qJXMwGZ23FL48bzbhUYrgSPsFhVUbOns3ibjH2tC6F5tuuQgnkgMBQ==
+"@candulabs/core@^0.6.0-alpha.2":
+  version "0.6.0-alpha.2"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0-alpha.2.tgz#3b80d3becd539e4d81006cdecdaa2bc800861ef6"
+  integrity sha512-+rq647w5YEBh4ZIHjxsmphrb6G9gh2mPIKjbBLZyRUepV6gaUUo6/9E5PuC1UvYOiUD/Dpu8KkEJo2/vOaLZ7A==
   dependencies:
     "@candulabs/eventing" "^0.6.0-alpha.1"
     "@candulabs/models" "^0.6.0-alpha.1"
@@ -1230,12 +1230,12 @@
     "@candulabs/models" "^0.5.0"
     "@candulabs/react-sdk" "^0.5.0"
 
-"@candulabs/react-sdk@0.6.0-alpha.1":
-  version "0.6.0-alpha.1"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.1.tgz#447c0b2d6332a404db316ecbde7593320ef28a96"
-  integrity sha512-8EhwXHsRlMrw5+nDmaD2m771FBfkkF0Ouwh9Y3mk9iGQ1M7lUwoFaOy0kb6w4RmtqsDzJgRH7PT/ZJyFC/xWmw==
+"@candulabs/react-sdk@0.6.0-alpha.3":
+  version "0.6.0-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0-alpha.3.tgz#17a38faa2c0eaa34a25bb3bf59d56388bbbadef4"
+  integrity sha512-kCnw9O6EpbIjlNYKo16+SnLyHNedp6zu5J7hMCTYYPeQ+RlZIYOfl/++bNHsDqvypKs7+A3Z4RFMSZdUItlNgw==
   dependencies:
-    "@candulabs/core" "^0.6.0-alpha.1"
+    "@candulabs/core" "^0.6.0-alpha.2"
     "@candulabs/eventing" "^0.6.0-alpha.1"
     "@candulabs/models" "^0.6.0-alpha.1"
     invariant "^2.2.4"
@@ -6316,7 +6316,7 @@ internal-slot@^1.0.2:
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
-  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  resolved "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   dependencies:
     loose-envify "^1.0.0"
@@ -8154,7 +8154,7 @@ oauth-sign@~0.9.0:
 
 object-assign@4.x, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
-  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
 object-copy@^0.1.0:
@@ -9510,7 +9510,7 @@ prop-types-exact@^1.2.0:
 
 prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
   dependencies:
     loose-envify "^1.4.0"
@@ -10195,7 +10195,7 @@ react-fast-compare@^3.0.1:
 
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-lazy-load@^3.0.13:
@@ -12141,7 +12141,7 @@ utils-merge@1.0.1:
 
 uuid@^3.0.1, uuid@^3.3.2:
   version "3.4.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 v8-compile-cache@^2.0.3:
