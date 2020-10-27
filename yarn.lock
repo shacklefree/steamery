@@ -1167,10 +1167,10 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.0.tgz#98b2ec345da32493e0855bab5b9f066102139e02"
-  integrity sha512-m+MDlOovh6qV+hyiFq2zUKdgggvb7AioaJyXZCMgrVYP7TZqK9RyD34CtCpormbqvr3QKs2aOHFw87MF5MgL7A==
+"@candulabs/core@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.1.tgz#20d7f3d3ed43cd2d58f62e7b511c1ec035456910"
+  integrity sha512-mGjP2zFyjKvhlEDtChUdPgMeUd1JRSGziU1eqeijfx6Jrw/jf26PnkOnXJE0gSubOj9OZY1S3PyBG71IDA3ZwQ==
   dependencies:
     "@candulabs/eventing" "^0.6.0"
     "@candulabs/models" "^0.6.0"
@@ -1230,19 +1230,6 @@
     "@candulabs/models" "^0.5.0"
     "@candulabs/react-sdk" "^0.5.0"
 
-"@candulabs/react-sdk@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.0.tgz#2a6cb7c9861a0c3672462637f4600ad56c61f1ce"
-  integrity sha512-EpVomGVsWSlEdyJh94kloueVmbHgV70jE6S8xz+1IHC2jIeQexhigm1q82aFpe+w0lQ/XCy648e3C4mz6I1BIg==
-  dependencies:
-    "@candulabs/core" "^0.6.0"
-    "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.0"
-    invariant "^2.2.4"
-    lodash "^4.17.15"
-    prop-types "^15.7.2"
-    react-player "^2.6.2"
-
 "@candulabs/react-sdk@^0.5.0":
   version "0.5.0"
   resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.5.0.tgz#e5622a732c61d77684f2fbbee22ade199ab6232e"
@@ -1251,6 +1238,19 @@
     "@candulabs/core" "^0.5.0"
     "@candulabs/eventing" "^0.5.0"
     "@candulabs/models" "^0.5.0"
+    invariant "^2.2.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-player "^2.6.2"
+
+"@candulabs/react-sdk@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.1.tgz#049fc93654d4a19fdf884d190dedd58a21da294e"
+  integrity sha512-nFhdW7waqGohxkfzsd7ajQsP4u+hLr1o27s+BdZYQiddS15THQ880T1kcyUGDMNiieCnASHL/iWIT6m8M2LeAw==
+  dependencies:
+    "@candulabs/core" "^0.6.1"
+    "@candulabs/eventing" "^0.6.0"
+    "@candulabs/models" "^0.6.0"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
