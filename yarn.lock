@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.1.tgz#20d7f3d3ed43cd2d58f62e7b511c1ec035456910"
-  integrity sha512-mGjP2zFyjKvhlEDtChUdPgMeUd1JRSGziU1eqeijfx6Jrw/jf26PnkOnXJE0gSubOj9OZY1S3PyBG71IDA3ZwQ==
+"@candulabs/core@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.2.tgz#3f77d4a84fb23a1be5257cdcc4789a132bf67564"
+  integrity sha512-sJj6CMypFiHNsm9DRQ+wx3L8WuckWsdqU/eewj2wz2Z1gOZO54pkTtWoKnD6JQO7qagYnOe/OMA8UwYUXV71/Q==
   dependencies:
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.0"
+    "@candulabs/models" "^0.6.2"
     react-style-object-to-css "^1.1.2"
 
 "@candulabs/eventing@^0.5.0":
@@ -1199,10 +1199,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.0.tgz#5f3b937e8b9e82f4bfa2e3071ba1839408cbca6f"
-  integrity sha512-1CqXM7DzHZy/g9eiPUKqF5oUX97YZVTPp4AHG+fOUo/SZknYPyWpGEw5CieiNRUvv/W28oy+bbXzfqUJl7hPUw==
+"@candulabs/models@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.2.tgz#5c87d73962dad66f873293c1e376dc832f622a6b"
+  integrity sha512-Vly615IPmynVHLRR/K6d9mHhyGSDf16N/N25Zho9LToDLZXPfXdLkYsFsAd3LpGdV0Pvu22CxTdWJGceGfD8bg==
   dependencies:
     lodash "^4.17.15"
 
@@ -1244,13 +1244,13 @@
     react-player "^2.6.2"
 
 "@candulabs/react-sdk@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.1.tgz#049fc93654d4a19fdf884d190dedd58a21da294e"
-  integrity sha512-nFhdW7waqGohxkfzsd7ajQsP4u+hLr1o27s+BdZYQiddS15THQ880T1kcyUGDMNiieCnASHL/iWIT6m8M2LeAw==
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.2.tgz#8b21b3b680eb7ac4bbe1d576af523e92ecc9d62d"
+  integrity sha512-NQG4THuCfK5MXbhXX6lkN/IuvJmhKwNIjkvQs3joBjL85nW1Nul6ARZlMsahGpPlXUPnycfjdzbEMYwajZPaKA==
   dependencies:
-    "@candulabs/core" "^0.6.1"
+    "@candulabs/core" "^0.6.2"
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.0"
+    "@candulabs/models" "^0.6.2"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
