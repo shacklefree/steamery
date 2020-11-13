@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.4.tgz#0418d99ca282e9ad49713db351c96584a750975d"
-  integrity sha512-XQOOf2un/8XuqfgucJZQ20Ifw4LJskzxuLqwiD5O0K7WLWMkYxUK0BtKAK4momR7ZFN4hizaZRumbyBRPjxq1Q==
+"@candulabs/core@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.5.tgz#3558afbe37dbcc169c282d4147b73bf26d5c7a2c"
+  integrity sha512-R+1gi7/yQKPuTGdUfgTxBizIJZDwrmMqBCOoCqH86T9BZKjYWu5/Dc5mLEIv3lbyJAlBV3Fs/sEoz0F/BgjYKA==
   dependencies:
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.4"
+    "@candulabs/models" "^0.6.5"
     dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
@@ -1207,10 +1207,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.4.tgz#4cf62ec9515211f27268f6be31b4058fa1d16858"
-  integrity sha512-5icZDHAq+yGus1JBSdW+ZlaA9LzCTSELImU6kGi2KPuQRDJU0cPz8y8hsX4g532IauuXuGIrmesQtyc/EwvoMQ==
+"@candulabs/models@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.5.tgz#860e84f33ef331920ec643a299496ba2a4a3499a"
+  integrity sha512-mCsjure/3HmP88CZLNjbDtC+A3OEM7KI4XcUezZnFksqEwXgRQeK/1hBeWUM/tipmLGo7g3xtBtgZL2zP66LDg==
   dependencies:
     lodash "^4.17.15"
 
@@ -1251,14 +1251,14 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.4.tgz#f899f74ea2faadb0f6352ae3ab258da3c9c3d32d"
-  integrity sha512-5Z9LKaTq9parqnQ9j2BhD5rLvW6BQ8H3jUsRYFmcAV4+LfT58DrQM14z+EvnvfA3Z3KVZK0HhAdVVsggWOOCCg==
+"@candulabs/react-sdk@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.5.tgz#a636e5f44e177b39a16fa4279bc3f3011806c774"
+  integrity sha512-zZ1pr4YhD4u/Pc2DstFd4zb4XQFncznEDu6aPIvkDXeNOnCGPNmgembx3OOoS9RRLHS/9PrakuzE56kO9sLxiw==
   dependencies:
-    "@candulabs/core" "^0.6.4"
+    "@candulabs/core" "^0.6.5"
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.4"
+    "@candulabs/models" "^0.6.5"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
