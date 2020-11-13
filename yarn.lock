@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.4-alpha.0":
-  version "0.6.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.4-alpha.0.tgz#0b9a6d2c0ed28b9f22c419d3ced878ccfd661424"
-  integrity sha512-3SERBmPIpSA+LZ69LJVIReFvAzwOLP0V5aMNoaeZKBQ87FVGNqXofNC23VcyiiHPHcaqL/e9R3t11tazqBtV1w==
+"@candulabs/core@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.4.tgz#0418d99ca282e9ad49713db351c96584a750975d"
+  integrity sha512-XQOOf2un/8XuqfgucJZQ20Ifw4LJskzxuLqwiD5O0K7WLWMkYxUK0BtKAK4momR7ZFN4hizaZRumbyBRPjxq1Q==
   dependencies:
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.4-alpha.0"
+    "@candulabs/models" "^0.6.4"
     dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
@@ -1207,10 +1207,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.4-alpha.0":
-  version "0.6.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.4-alpha.0.tgz#b6e198b0b20bd45e88fa5d88edd024bf5490890e"
-  integrity sha512-Sx2twuVjoaXdzYcBfColhC11cIlqFJf4RO0PGTsqyIcsyJsUF/DmJEb0/FZQIKA2ynKQAQSwF0xRF54jeYOWcA==
+"@candulabs/models@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.4.tgz#4cf62ec9515211f27268f6be31b4058fa1d16858"
+  integrity sha512-5icZDHAq+yGus1JBSdW+ZlaA9LzCTSELImU6kGi2KPuQRDJU0cPz8y8hsX4g532IauuXuGIrmesQtyc/EwvoMQ==
   dependencies:
     lodash "^4.17.15"
 
@@ -1251,14 +1251,14 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.4-alpha.0":
-  version "0.6.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.4-alpha.0.tgz#f007330fb3788b603bb156969103f202d943459c"
-  integrity sha512-RgTsP/hFubN1OPjFiVaIq5MDB891yWAlriTcg24gJopxxsR7v/WWEizXVvEQnBvmxcEuwE5iEO+jKbWKBpVfZQ==
+"@candulabs/react-sdk@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.4.tgz#f899f74ea2faadb0f6352ae3ab258da3c9c3d32d"
+  integrity sha512-5Z9LKaTq9parqnQ9j2BhD5rLvW6BQ8H3jUsRYFmcAV4+LfT58DrQM14z+EvnvfA3Z3KVZK0HhAdVVsggWOOCCg==
   dependencies:
-    "@candulabs/core" "^0.6.4-alpha.0"
+    "@candulabs/core" "^0.6.4"
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.4-alpha.0"
+    "@candulabs/models" "^0.6.4"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
