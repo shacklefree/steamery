@@ -1167,13 +1167,14 @@
     "@candulabs/models" "^0.5.0"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.2.tgz#3f77d4a84fb23a1be5257cdcc4789a132bf67564"
-  integrity sha512-sJj6CMypFiHNsm9DRQ+wx3L8WuckWsdqU/eewj2wz2Z1gOZO54pkTtWoKnD6JQO7qagYnOe/OMA8UwYUXV71/Q==
+"@candulabs/core@^0.6.6":
+  version "0.6.6"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.6.tgz#99b4b15404bc12895885eb5bf39c2284154a9049"
+  integrity sha512-RkdBWxNvGs9rB7nId9slWelot6+Ep4nNrZOyH28TWVDkOYzpblaH6waMF99qi2BDNqxuBu8CeKtvhJJ0zAandw==
   dependencies:
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.2"
+    "@candulabs/models" "^0.6.6"
+    dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
 "@candulabs/eventing@^0.5.0":
@@ -1199,10 +1200,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.2.tgz#5c87d73962dad66f873293c1e376dc832f622a6b"
-  integrity sha512-Vly615IPmynVHLRR/K6d9mHhyGSDf16N/N25Zho9LToDLZXPfXdLkYsFsAd3LpGdV0Pvu22CxTdWJGceGfD8bg==
+"@candulabs/models@^0.6.6":
+  version "0.6.6"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.6.tgz#5114d8d0b5a04321b2c67fd8833cb647ac64f4b4"
+  integrity sha512-V9BrX79ikIFfKFpmrhUQWsAjWrDUBYzNcjU2fJmyOkD9CQJs1UN7VMfHS43H70b/ljbd+tH4Om2NDzjVbXh3zw==
   dependencies:
     lodash "^4.17.15"
 
@@ -1243,14 +1244,14 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.1":
-  version "0.6.2"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.2.tgz#8b21b3b680eb7ac4bbe1d576af523e92ecc9d62d"
-  integrity sha512-NQG4THuCfK5MXbhXX6lkN/IuvJmhKwNIjkvQs3joBjL85nW1Nul6ARZlMsahGpPlXUPnycfjdzbEMYwajZPaKA==
+"@candulabs/react-sdk@^0.6.7":
+  version "0.6.7"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.7.tgz#1f97874ff349944d00c6bed188dda10431b69c1d"
+  integrity sha512-sP5mL5sJQT/XDM67c3aUONJOkhGflDt8UP4nZBzhayWSwHRx5gxYfuamy9P55HdPAQ8YEQQXBRhpC9nhKEmtGg==
   dependencies:
-    "@candulabs/core" "^0.6.2"
+    "@candulabs/core" "^0.6.6"
     "@candulabs/eventing" "^0.6.0"
-    "@candulabs/models" "^0.6.2"
+    "@candulabs/models" "^0.6.6"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -4239,6 +4240,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dataloader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/dataloader/-/dataloader-2.0.0.tgz#41eaf123db115987e21ca93c005cd7753c55fe6f"
+  integrity sha512-YzhyDAwA4TaQIhM5go+vCLmU0UikghC/t9DTQYZR2M/UvZ1MdOhPezSDZcjj9uqQJOMqjLcpWtyW2iNINdlatQ==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
