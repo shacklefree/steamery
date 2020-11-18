@@ -48,7 +48,7 @@ const locationToKey = (location) => {
 const AntSider = ({ collapsed, auth, logout }: Props) => {
   const handleLogout = () => logout();
   const location = useLocation();
-  console.log({ location });
+
   return (
     <Sider trigger={null} collapsible collapsed={collapsed} className="candu-ant-sider">
       <Link to="/">
