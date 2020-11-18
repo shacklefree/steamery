@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.8-alpha.0":
-  version "0.6.8-alpha.0"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.8-alpha.0.tgz#004d706695ff3577adece1525a51b320c5cb0f66"
-  integrity sha512-4J5dQXcXBV/ER1jbneWSh21dUz0yXLiwfjA962xaM3V2U5ALySiT42QypY8YdUdX0YzJ9dgubsJiLkt19Tq8cA==
+"@candulabs/core@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.8.tgz#22847278beb91951cdb194dbed4d7f1fa8de7e67"
+  integrity sha512-lNe0cAIP/UBRy8Q+8cHys+GbQKarUNPnqGBjC6JywIHm3q2SaPTtQDvhTByIsLIcxYi6PlnaPuI7hdL8uDN3nQ==
   dependencies:
-    "@candulabs/eventing" "^0.6.8-alpha.0"
-    "@candulabs/models" "^0.6.8-alpha.0"
+    "@candulabs/eventing" "^0.6.8"
+    "@candulabs/models" "^0.6.8"
     dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
@@ -1185,10 +1185,10 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/eventing@^0.6.8-alpha.0":
-  version "0.6.8-alpha.0"
-  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.8-alpha.0.tgz#33247bde38e211096c3e4f98a78bbdb4737b1cc0"
-  integrity sha512-QMkKXuVEefIq8+HyKMTQZs2vmCEq8cWi7dMMuZ/QidGai7Mx0LiB8T3nF8GrbmKqEdNtzbyzY7pwou1am0TNpw==
+"@candulabs/eventing@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.8.tgz#82a92ef3ac93e9a023dc8c7085ce31e9e503e114"
+  integrity sha512-A+/33YZMkV0/Bpmf9PxUnYOhALoo0DX8owGmjvHHC36U9W00bOaa+fixUlDuQX0aEkwbLCRWiBmvNI1PzL8NrA==
   dependencies:
     lodash "^4.17.15"
     uuid "^3.3.2"
@@ -1207,10 +1207,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.8-alpha.0":
-  version "0.6.8-alpha.0"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.8-alpha.0.tgz#49471db2d1221ed0a5e97d3709328e56431803fa"
-  integrity sha512-YDL8zG0ORQoZgRSNqDmccBMHItZQKFONLEU92E7+o/kbahvxQsVX0N6o+sn2XDpzZRQ9Junz9GvKK4VbnFd/tA==
+"@candulabs/models@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.8.tgz#9190b78d96e1bbcf6b48fb497a9af9d1f6d9dfba"
+  integrity sha512-TkNXjbINUTrYAvIAathsJtyTm35orj7dltK56P/q2XrKk94cwgEjxrsxY7HqxK5nEreOy5j3ng9j8L5q5f8PCg==
   dependencies:
     lodash "^4.17.15"
 
@@ -1238,19 +1238,6 @@
     "@candulabs/models" "^0.5.0"
     "@candulabs/react-sdk" "^0.5.2"
 
-"@candulabs/react-sdk@0.6.8-alpha.0":
-  version "0.6.8-alpha.0"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.8-alpha.0.tgz#7867b380c0a6098bbb58a3aa589535b5bdbab40d"
-  integrity sha512-VUUMUsemQg9MduhnXf9pZl1y7grWHOnaqihKoGrii+zWjgBuH/vYw58d1Wpa7XtUBVd9WdHBeWekPbgLfS+GsA==
-  dependencies:
-    "@candulabs/core" "^0.6.8-alpha.0"
-    "@candulabs/eventing" "^0.6.8-alpha.0"
-    "@candulabs/models" "^0.6.8-alpha.0"
-    invariant "^2.2.4"
-    lodash "^4.17.15"
-    prop-types "^15.7.2"
-    react-player "^2.6.2"
-
 "@candulabs/react-sdk@^0.5.2":
   version "0.5.6"
   resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.5.6.tgz#75eaed0e39b0e75c60488366832d06d078535b07"
@@ -1259,6 +1246,19 @@
     "@candulabs/core" "^0.5.6"
     "@candulabs/eventing" "^0.5.6"
     "@candulabs/models" "^0.5.6"
+    invariant "^2.2.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-player "^2.6.2"
+
+"@candulabs/react-sdk@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.8.tgz#e101006ac9ef6e7a3fb12605b1d78a92ee582ccd"
+  integrity sha512-3MI3s+VLj92N83sTK+KlMA3zSRaBU6S3zsqvgZ//FpX9vujuLgeWSRWY7zdjeAgQGs2nBsCBi6QS1MAg9TW5Yw==
+  dependencies:
+    "@candulabs/core" "^0.6.8"
+    "@candulabs/eventing" "^0.6.8"
+    "@candulabs/models" "^0.6.8"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -10238,9 +10238,9 @@ react-outside-click-handler@^1.3.0:
     prop-types "^15.7.2"
 
 react-player@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.npmjs.org/react-player/-/react-player-2.6.2.tgz#d41fe842f5bd6a2b1d3ce1ba9ed82c3eb26e0df4"
-  integrity sha512-Wi9DynNSVgddKxac5OzsH0Upk6VRYssvLLGgCRw6vsjzqMX6S5N26WDRNYnLaHykxFNtpPSDc53fXDe52hMaCg==
+  version "2.7.0"
+  resolved "https://registry.npmjs.org/react-player/-/react-player-2.7.0.tgz#7f25c83b6111770adbae51679f7ad27fb0fa0269"
+  integrity sha512-S+d9EfFCb2UlDBKf5U8jTgVQI3QCRfZ8k7kFUgpYLrSjLuowdV/NyZAKprplUNJEho1LmdwtqsDKg21kMIVymw==
   dependencies:
     deepmerge "^4.0.0"
     load-script "^1.0.0"
