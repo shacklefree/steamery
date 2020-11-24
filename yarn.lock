@@ -1167,10 +1167,10 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.9":
-  version "0.6.9"
-  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.9.tgz#cb7113bbb577fd520f5cdbc65146a17900ade7b3"
-  integrity sha512-ZDRM46+swA0/T0VyNc3UCPW/q9JkchgGkAEiOKqDD5K0LjGiCyySrOVBxtXXGoZIdW8i3kyd+xbhNDq1CbNZig==
+"@candulabs/core@^0.6.10-alpha.0":
+  version "0.6.10-alpha.0"
+  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.10-alpha.0.tgz#eea75ac269a7fde15b38f34445f5e74990f5ca64"
+  integrity sha512-7jOYpC2cNTcCwXWrcQjEGmlluESPCid9wbiRa7+qhZeSwfOyBaoK1zWli9Wvg8NkgDtMWGcBGczMJUnr6FbTQA==
   dependencies:
     "@candulabs/eventing" "^0.6.8"
     "@candulabs/models" "^0.6.8"
@@ -1251,12 +1251,12 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.9":
-  version "0.6.9"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.9.tgz#c2345da54dcd2a334d80c6ca70699eb97b29f9f8"
-  integrity sha512-I62Uqeh/UBW9tkwgE/1Gk7BuF6KY5Jsw8ypRgbffAaBjKK7GN8SxtRyP3I52NbFRAg+emDDU343p6TJf0e2zVA==
+"@candulabs/react-sdk@^0.6.10-alpha.0":
+  version "0.6.10-alpha.0"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.10-alpha.0.tgz#4e22bcbbd860b96a142183377a5f783bb4348e4e"
+  integrity sha512-XILFrzhuGjg+Sz6BoJkW/C1Wqs3YPGhM5yT0szVinPaiC9Mu141b+MNytUaBhfgPfXmISQ/WDXAbVTMcLeaXvg==
   dependencies:
-    "@candulabs/core" "^0.6.9"
+    "@candulabs/core" "^0.6.10-alpha.0"
     "@candulabs/eventing" "^0.6.8"
     "@candulabs/models" "^0.6.8"
     invariant "^2.2.4"
