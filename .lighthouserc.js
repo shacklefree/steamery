@@ -1,10 +1,15 @@
 module.exports = {
   ci: {
     assert: {
+      preset: 'lighthouse:recommended',
       assertions: {
-        'categories:performance': ['warn', { minScore: 0 }],
-        'categories:accessibility': ['warn', { minScore: 0 }],
+        'offscreen-images': 'off',
+        'uses-webp-images': 'off',
+        'color-contrast': 'off',
       },
+    },
+    upload: {
+      target: 'temporary-public-storage',
     },
   },
 };
