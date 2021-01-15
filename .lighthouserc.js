@@ -20,6 +20,12 @@ module.exports = {
         'unused-javascript': 'off',
         'without-javascript': 'off',
         'works-offline': 'off',
+        'button-name': 'off',
+        'external-anchors-use-rel-noopener': 'off',
+        'font-display': 'off',
+        'image-aspect-ratio': 'off',
+        'image-size-responsive': 'off',
+        'uses-rel-preconnect': 'off',
       },
     },
     upload: {
