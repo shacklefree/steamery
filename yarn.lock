@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.8.tgz#22847278beb91951cdb194dbed4d7f1fa8de7e67"
-  integrity sha512-lNe0cAIP/UBRy8Q+8cHys+GbQKarUNPnqGBjC6JywIHm3q2SaPTtQDvhTByIsLIcxYi6PlnaPuI7hdL8uDN3nQ==
+"@candulabs/core@^0.6.13-alpha.3":
+  version "0.6.13-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/core/-/core-0.6.13-alpha.3.tgz#3b128c75a139a0f2cdeca5cfd7a9d74abf049d84"
+  integrity sha512-pRTot2gb4Mr0PtBAoI2XEQOjDO9ZjBKu1oxZKGRqaeSSgMlGscvhZqI2m80UdwZY26hQxSNsz3bQtVWFcn1oXg==
   dependencies:
-    "@candulabs/eventing" "^0.6.8"
-    "@candulabs/models" "^0.6.8"
+    "@candulabs/eventing" "^0.6.13-alpha.0"
+    "@candulabs/models" "^0.6.13-alpha.0"
     dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
@@ -1185,11 +1185,12 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/eventing@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.8.tgz#82a92ef3ac93e9a023dc8c7085ce31e9e503e114"
-  integrity sha512-A+/33YZMkV0/Bpmf9PxUnYOhALoo0DX8owGmjvHHC36U9W00bOaa+fixUlDuQX0aEkwbLCRWiBmvNI1PzL8NrA==
+"@candulabs/eventing@^0.6.13-alpha.0":
+  version "0.6.13-alpha.0"
+  resolved "https://registry.npmjs.org/@candulabs/eventing/-/eventing-0.6.13-alpha.0.tgz#a9abe599bdf4155395a644eaac4e84dd659e407a"
+  integrity sha512-+Olmm5RlJ5kqoj8ALRmccEKDoXIzidqiezCfrAJTzTDH5aHGdhbbh75cmw2qBWg0oX9TsqPx8rAyDGVCnMYVSg==
   dependencies:
+    "@sentry/browser" "^5.30.0"
     lodash "^4.17.15"
     uuid "^3.3.2"
 
@@ -1207,10 +1208,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.8.tgz#9190b78d96e1bbcf6b48fb497a9af9d1f6d9dfba"
-  integrity sha512-TkNXjbINUTrYAvIAathsJtyTm35orj7dltK56P/q2XrKk94cwgEjxrsxY7HqxK5nEreOy5j3ng9j8L5q5f8PCg==
+"@candulabs/models@^0.6.13-alpha.0":
+  version "0.6.13-alpha.0"
+  resolved "https://registry.npmjs.org/@candulabs/models/-/models-0.6.13-alpha.0.tgz#6e26233ffd2ecc17323958a944c29ce57ee89af2"
+  integrity sha512-9/5R7sWx3jt0ZKkbtLDT7KGx5j2TzbPBBD5+vTQrm1iEye5hzqy7N2gNwufK8eV1uHF1Byqbo8YhGITmYlH3mg==
   dependencies:
     lodash "^4.17.15"
 
@@ -1251,14 +1252,14 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.8.tgz#e101006ac9ef6e7a3fb12605b1d78a92ee582ccd"
-  integrity sha512-3MI3s+VLj92N83sTK+KlMA3zSRaBU6S3zsqvgZ//FpX9vujuLgeWSRWY7zdjeAgQGs2nBsCBi6QS1MAg9TW5Yw==
+"@candulabs/react-sdk@^0.6.13-alpha.3":
+  version "0.6.13-alpha.3"
+  resolved "https://registry.npmjs.org/@candulabs/react-sdk/-/react-sdk-0.6.13-alpha.3.tgz#607b5dfd4712366f27fdc8726efdf4b4b2cb4385"
+  integrity sha512-ZrrcO58xvZ7rejbK+UJju0woUpzJ1zC7bLXmdlXLABx63CbEWeDtzi0IL8HnerkMGkaH2g63HeQYTEdVVsB3Yw==
   dependencies:
-    "@candulabs/core" "^0.6.8"
-    "@candulabs/eventing" "^0.6.8"
-    "@candulabs/models" "^0.6.8"
+    "@candulabs/core" "^0.6.13-alpha.3"
+    "@candulabs/eventing" "^0.6.13-alpha.0"
+    "@candulabs/models" "^0.6.13-alpha.0"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
@@ -1802,6 +1803,58 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
+
+"@sentry/browser@^5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/browser/-/browser-5.30.0.tgz#c28f49d551db3172080caef9f18791a7fd39e3b3"
+  integrity sha512-rOb58ZNVJWh1VuMuBG1mL9r54nZqKeaIlwSlvzJfc89vyfd7n6tQ1UXMN383QBz/MS5H5z44Hy5eE+7pCrYAfw==
+  dependencies:
+    "@sentry/core" "5.30.0"
+    "@sentry/types" "5.30.0"
+    "@sentry/utils" "5.30.0"
+    tslib "^1.9.3"
+
+"@sentry/core@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/core/-/core-5.30.0.tgz#6b203664f69e75106ee8b5a2fe1d717379b331f3"
+  integrity sha512-TmfrII8w1PQZSZgPpUESqjB+jC6MvZJZdLtE/0hZ+SrnKhW3x5WlYLvTXZpcWePYBku7rl2wn1RZu6uT0qCTeg==
+  dependencies:
+    "@sentry/hub" "5.30.0"
+    "@sentry/minimal" "5.30.0"
+    "@sentry/types" "5.30.0"
+    "@sentry/utils" "5.30.0"
+    tslib "^1.9.3"
+
+"@sentry/hub@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/hub/-/hub-5.30.0.tgz#2453be9b9cb903404366e198bd30c7ca74cdc100"
+  integrity sha512-2tYrGnzb1gKz2EkMDQcfLrDTvmGcQPuWxLnJKXJvYTQDGLlEvi2tWz1VIHjunmOvJrB5aIQLhm+dcMRwFZDCqQ==
+  dependencies:
+    "@sentry/types" "5.30.0"
+    "@sentry/utils" "5.30.0"
+    tslib "^1.9.3"
+
+"@sentry/minimal@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/minimal/-/minimal-5.30.0.tgz#ce3d3a6a273428e0084adcb800bc12e72d34637b"
+  integrity sha512-BwWb/owZKtkDX+Sc4zCSTNcvZUq7YcH3uAVlmh/gtR9rmUvbzAA3ewLuB3myi4wWRAMEtny6+J/FN/x+2wn9Xw==
+  dependencies:
+    "@sentry/hub" "5.30.0"
+    "@sentry/types" "5.30.0"
+    tslib "^1.9.3"
+
+"@sentry/types@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/types/-/types-5.30.0.tgz#19709bbe12a1a0115bc790b8942917da5636f402"
+  integrity sha512-R8xOqlSTZ+htqrfteCWU5Nk0CDN5ApUTvrlvBuiH1DyP6czDZ4ktbZB0hAgBlVcK0U+qpD3ag3Tqqpa5Q67rPw==
+
+"@sentry/utils@5.30.0":
+  version "5.30.0"
+  resolved "https://registry.npmjs.org/@sentry/utils/-/utils-5.30.0.tgz#9a5bd7ccff85ccfe7856d493bffa64cabc41e980"
+  integrity sha512-zaYmoH0NWWtvnJjC9/CBseXMtKHm/tm40sz3YfJRxeQjyzRqNQPgivpd9R/oDJCYj999mzdW382p/qi2ypjLww==
+  dependencies:
+    "@sentry/types" "5.30.0"
+    tslib "^1.9.3"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -11889,6 +11942,11 @@ tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
+
+tslib@^1.9.3:
+  version "1.14.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@~1.10.0:
   version "1.10.0"
