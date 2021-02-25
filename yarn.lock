@@ -1167,13 +1167,13 @@
     "@candulabs/models" "^0.5.6"
     react-style-object-to-css "^1.1.2"
 
-"@candulabs/core@^0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.13.tgz#e1f0327392451293266e7399d8e0a9bb04607a64"
-  integrity sha512-14KPhxXOUgIc7MkDmPuilLZKjcUjF6/WXBz3JKdPQC8z3JP2eXKgIqLfJif5BkwGtxk3PKqw/u5lp/r+o1FVlg==
+"@candulabs/core@^0.6.14-alpha.3":
+  version "0.6.14-alpha.3"
+  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.6.14-alpha.3.tgz#65acdb6b53256d337faf22237dc9663a20bfe514"
+  integrity sha512-l5edh6ZARJxR8MwK00zKs4FJljy/LAOcDv02xCpBNby0jw4zJvNjG7sAyM7/eLTStPj0qa4xyi4o6lN0/dxRXQ==
   dependencies:
-    "@candulabs/eventing" "^0.6.13"
-    "@candulabs/models" "^0.6.13"
+    "@candulabs/eventing" "^0.6.14-alpha.3"
+    "@candulabs/models" "^0.6.14-alpha.3"
     dataloader "^2.0.0"
     react-style-object-to-css "^1.1.2"
 
@@ -1185,10 +1185,10 @@
     lodash "^4.17.15"
     uuid "^3.3.2"
 
-"@candulabs/eventing@^0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.6.13.tgz#fe0b21efd7a7bdeca375b3522f4c5b26368fbec7"
-  integrity sha512-dbu+k57pkfjmo6bNbqway8PBjQor5Y0NeTCSTppih6A66fjSVBR6eK/yyYMuNmrq5xWENq3thBkhN9kbtbst0Q==
+"@candulabs/eventing@^0.6.14-alpha.3":
+  version "0.6.14-alpha.3"
+  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.6.14-alpha.3.tgz#a74d223013df1e83c52b1ff3b7c95e4227b4ce59"
+  integrity sha512-tBwlnDxzYPyp+Yy13+OmFHoR6re4bNmk75hOWmfY6LuUBnymwtRSrJQozvnKGrVSgTZj+zk6HOH/sQvja8WFCA==
   dependencies:
     "@sentry/browser" "^5.30.0"
     lodash "^4.17.15"
@@ -1208,10 +1208,10 @@
   dependencies:
     lodash "^4.17.15"
 
-"@candulabs/models@^0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.13.tgz#81da96f13a9896047cd52c298a41fc4101643c66"
-  integrity sha512-P6RzhPjHlaYiJsYuzmJnMaRRFOddu0iRegSpFE3XhxXaZS4cC+JGgOyOgWRStyfUtoNdI4rjwRr9Gn5ez1mRqQ==
+"@candulabs/models@^0.6.14-alpha.3":
+  version "0.6.14-alpha.3"
+  resolved "https://registry.yarnpkg.com/@candulabs/models/-/models-0.6.14-alpha.3.tgz#005dba46580a77714bcdbdc662ae2b1abd1aec32"
+  integrity sha512-K9XYzEYCFrVPU7Uvaa5jMj+mtUWXsqDZOyNd6sSfT53qxHcQI+3dh2BAzBWrxs502kw7grlhxKd7NzTE7NB59w==
   dependencies:
     lodash "^4.17.15"
 
@@ -1252,14 +1252,14 @@
     prop-types "^15.7.2"
     react-player "^2.6.2"
 
-"@candulabs/react-sdk@^0.6.14-alpha.1":
-  version "0.6.14-alpha.1"
-  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.14-alpha.1.tgz#67890eb3b7d8c0c6b317637c113489e15d9a56ae"
-  integrity sha512-qf58Ko7HFAdZpnoP8dREpLB23Zo1kjdJr5dQdh31t+JtQJGG/BhVLErfKpdCOnaN6YeuMhW2JtEDFYK6joKs8g==
+"@candulabs/react-sdk@^0.6.14-alpha.3":
+  version "0.6.14-alpha.3"
+  resolved "https://registry.yarnpkg.com/@candulabs/react-sdk/-/react-sdk-0.6.14-alpha.3.tgz#24e7272618b90a482e91c69cc5688da7561d6859"
+  integrity sha512-pimFCyxvoRAbnN5tG6GMFv0Lmz/jXuedUcRiVjNrmiHz3a+9iLqkkpztlJR37nji7qw9YSi20QbqtmfOniqCkg==
   dependencies:
-    "@candulabs/core" "^0.6.13"
-    "@candulabs/eventing" "^0.6.13"
-    "@candulabs/models" "^0.6.13"
+    "@candulabs/core" "^0.6.14-alpha.3"
+    "@candulabs/eventing" "^0.6.14-alpha.3"
+    "@candulabs/models" "^0.6.14-alpha.3"
     invariant "^2.2.4"
     lodash "^4.17.15"
     prop-types "^15.7.2"
