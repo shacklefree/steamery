@@ -2,6 +2,7 @@ import React, { FunctionComponent, useEffect } from 'react';
 import queryString from 'qs';
 import { connect } from 'react-redux';
 import { CanduProvider } from '@candulabs/react-sdk';
+import { CanduProvider as CanduHarbour } from '@candulabs/harbour';
 
 import Ant from './Ant';
 
@@ -30,21 +31,30 @@ const App = (props: Props) => {
   }, [initAuth]);
 
   const { clientToken, userId } = queryString.parse(window.location.search.replace('?', ''));
+  console.log('App!')
 
   return (
     <React.Fragment>
       <AdditionalStyles />
-      <CanduProvider
+      <CanduHarbour
         key={styleguideToRender}
         clientToken={(clientToken as string) || 'dR8ZTszcnp'}
         userId={(userId as string) || 'test-user'}
         traits={{}}
         styleguide={{ ...selectedStyleguide }}
-      >
-        <Ant>
-          <Routes />
-        </Ant>
-      </CanduProvider>
+        >
+        <CanduProvider
+          key={styleguideToRender}
+          clientToken={(clientToken as string) || 'dR8ZTszcnp'}
+          userId={(userId as string) || 'test-user'}
+          traits={{}}
+          styleguide={{ ...selectedStyleguide }}
+        >
+          <Ant>
+            <Routes />
+          </Ant>
+        </CanduProvider>
+      </CanduHarbour>
     </React.Fragment>
   );
 };

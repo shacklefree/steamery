@@ -1178,6 +1178,16 @@
     react-style-object-to-css "^1.1.2"
     setimmediate "^1.0.5"
 
+"@candulabs/core@^0.7.1-alpha.11":
+  version "0.7.1-alpha.12"
+  resolved "https://registry.yarnpkg.com/@candulabs/core/-/core-0.7.1-alpha.12.tgz#dc2ac545e2df4b55097aa42bd4ec518c91ca16a4"
+  integrity sha512-9Is4PtBqJdHUd6JLSJ6lzTdynUy4dCbgAs4szepXm7eXJZXcCas680DSNhhCdvEr54oxl368EYez0LCvFJkOUw==
+  dependencies:
+    "@candulabs/eventing" "^0.7.1-alpha.12"
+    dataloader "^2.0.0"
+    react-style-object-to-css "^1.1.2"
+    setimmediate "^1.0.5"
+
 "@candulabs/eventing@^0.5.6":
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.5.6.tgz#7b05c3299ea127f83996df912e9c6c3579c8ff2f"
@@ -1194,6 +1204,25 @@
     "@sentry/browser" "^5.30.0"
     lodash "^4.17.15"
     uuid "^3.3.2"
+
+"@candulabs/eventing@^0.7.1-alpha.11", "@candulabs/eventing@^0.7.1-alpha.12":
+  version "0.7.1-alpha.12"
+  resolved "https://registry.yarnpkg.com/@candulabs/eventing/-/eventing-0.7.1-alpha.12.tgz#897c40d1bf310bf4c03cdfdc3b0f36443b6ddff5"
+  integrity sha512-yN+MHBRAaQ9V2D2hngh5kzx1/3dW7r3kWdY4rw19uFDB1CTAcgtc8+2gtsegDQsLJK+BRZpISt2TSmZF1o0iiQ==
+  dependencies:
+    "@sentry/browser" "^5.30.0"
+    lodash "^4.17.15"
+    uuid "^3.3.2"
+
+"@candulabs/harbour@file:.yalc/@candulabs/harbour":
+  version "0.7.1-alpha.11-6a71dbde"
+  dependencies:
+    "@candulabs/core" "^0.7.1-alpha.11"
+    "@candulabs/eventing" "^0.7.1-alpha.11"
+    invariant "^2.2.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-player "^2.6.2"
 
 "@candulabs/models@^0.5.0":
   version "0.5.0"

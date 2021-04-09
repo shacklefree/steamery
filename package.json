@@ -4,6 +4,7 @@
   "private": true,
   "main": "src/index.js",
   "dependencies": {
+    "@candulabs/harbour": "file:.yalc/@candulabs/harbour",
     "@candulabs/react-antd-styleguide": "0.5.2",
     "@candulabs/react-bootstrap-styleguide": "0.5.2",
     "@candulabs/react-evergreen-styleguide": "0.5.2",
